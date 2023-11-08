@@ -38,14 +38,51 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 <p align="justify">O CyberMind é um projeto inovador dedicado à criação de uma plataforma destinada à comercialização e acesso a uma ampla gama de cursos online. Nossa plataforma proporciona aos usuários a oportunidade de explorar e adquirir cursos ministrados por profissionais de destaque, embarcando em uma jornada de aprendizado por meio de vídeoaulas especializadas e de alta qualidade.</p>
 <br>
 <h3>Arquitetura do Projeto</h3>
-<p align="center"><img src="https://github.com/guiftavares/PorfolioBancoDeDados/blob/main/1Sem/images/GranjaDoFuturo.png" width="100%"></img></p>
+<p align="center"><img src="" width="100%"></img></p>
 <br>
 <h3>Prévia da Solução</h3>
-<p align="justify"></p>
+<p align="justify">O site desenvolvido tem como principal objetivo oferecer a melhor experiência ao usuário, garantindo um aprendizado eficaz. Para atingir essa meta, foram aplicadas técnicas de usabilidade e garantida a responsividade, assegurando uma performance consistente independentemente do dispositivo utilizado para acessar o site. Além disso, optamos por um design minimalista e moderno, predominando as cores azul e branco, escolhidas por sua relação com o campo educacional.
+
+Com base nessa visão de criação, o sistema apresenta funcionalidades essenciais para seu pleno funcionamento: cadastro, login, carrinho e visualização das aulas.</p>
+<details>
+  <summary><b>Funcionalidade Login</b></summary>
+  <br>
+  <table align="center">
+    <tr>
+      <td alignt="center"><img src=""alt=""/>
+      </td>
+    </tr>
+  </table>
+</details>
+<p align="justify">Desenvolvemos uma tela de login intuitiva, acompanhada por alertas para notificar o usuário sobre possíveis discrepâncias nos dados preenchidos nos campos de usuário e senha. Também implementamos a opção de recuperação de senha, em que os usuários podiam solicitar alterações por e-mail.</p>
+
+<details>
+  <summary><b>Funcionalidade Cadastro</b></summary>
+  <br>
+  <p align="left"><img src="" width="50%" alt=""/></p> 
+</details>
+<p align="justify">O processo de cadastro foi projetado para ser intuitivo, com alertas caso campos não estivessem preenchidos conforme as diretrizes do sistema, como, por exemplo, a confirmação da segunda senha ser diferente da primeira. Ao finalizar o cadastro, os usuários recebiam um e-mail para confirmar sua inscrição.</p>
+
+<details>
+  <summary><b>Funcionalidade Carrinho</b></summary>
+  <br>
+  <p align="left"><img src="" width="50%" alt=""/></p> 
+</details>
+<p align="justify">Acesso ao carrinho era exclusivo para usuários logados na plataforma. Os clientes podiam navegar pelo sistema e adicionar cursos ao carrinho, os quais eram somados automaticamente para gerar o valor total a ser pago. Ao finalizar a seleção, os usuários podiam escolher o método de pagamento para concluir a operação.</p>
+
+<details>
+  <summary><b>Funcionalidade Curso</b></summary>
+  <br>
+  <p align="left"><img src="" alt=""/></p> 
+</details>
+<p align="justify">Após o pagamento de um curso, este era associado ao perfil de aprendizado do cliente. A partir dali, o usuário podia acessar e acompanhar todas as vídeoaulas do curso, além de realizar quizzes para testar os conhecimentos adquiridos durante o aprendizado.</p>
+
 
 <h3>Tecnologias Utilizadas</h3>
-<p align="justify"><a href=""></p>
-
+<p align="justify">HTML, CSS e Java Script: para a estrutura e estilização do projeto</p>
+<p align="justify"><a href="https://www.php.net/">PHP:</a> para o desenvolvimento do back-end</p>
+<p align="justify"><a href="https://www.mysql.com/">MySql:</a> para o desenvolvimento do banco de dados</p>
+<p align="justify"><a href="https://www.techsmith.com/video-editor.html">Camtasia Studio:</a> para a gravação e documentação das funções do projeto</p>
 <br>
 <h3>Contribuições Pessoais</h3>
 <p align="justify">Atuei como membro do "Development Team", desempenhando um papel fundamental na configuração e implementação de funcionalidades essenciais para oferecer aos usuários uma experiência completa no sistema. Minha principal responsabilidade foi a concepção e implementação do back-end da aplicação Web utilizando PHP.
