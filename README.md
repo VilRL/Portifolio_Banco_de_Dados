@@ -48,7 +48,9 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 
 <br>
 <h3>Contribuições Pessoais</h3>
-<p align="justify"></p>
+<p align="justify">Atuei como membro do "Development Team", desempenhando um papel fundamental na configuração e implementação de funcionalidades essenciais para oferecer aos usuários uma experiência completa no sistema. Minha principal responsabilidade foi a concepção e implementação do back-end da aplicação Web utilizando PHP.
+
+No projeto, desenvolvi diversas funcionalidades cruciais como programador. Estas incluíram a criação de um sistema de cadastro para novos usuários, a implementação do mecanismo de login para autenticação no site, a facilitação da aquisição e acesso aos cursos - desde adicionar cursos ao carrinho até a conclusão do processo de pagamento. Além disso, fui responsável pela exibição dos cursos no perfil do aluno, utilizando filtros SQL para garantir que os usuários pudessem acessar as informações de forma eficiente e personalizada.</p>
 <ul>
   <li></li>
 </ul>
