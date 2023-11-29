@@ -92,6 +92,9 @@ No projeto, desenvolvi diversas funcionalidades cruciais como programador. Estas
 <ul>
   <li></li>
 </ul>
+<p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/esqueci%20senha.png" width="50%" alt=""/></p>
+<p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/exibirCarrinho.png" width="50%" alt=""/></p>
+<p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/login.png" width="50%" alt=""/></p> 
 <br>
 <h3>Lições Aprendidas</h3>
 <p align="justify"></p>
