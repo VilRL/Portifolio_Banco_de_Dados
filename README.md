@@ -90,11 +90,20 @@ Com base nessa visão de criação, o sistema apresenta funcionalidades essencia
 
 No projeto, desenvolvi diversas funcionalidades cruciais como programador. Estas incluíram a criação de um sistema de cadastro para novos usuários, a implementação do mecanismo de login para autenticação no site, a facilitação da aquisição e acesso aos cursos - desde adicionar cursos ao carrinho até a conclusão do processo de pagamento. Além disso, fui responsável pela exibição dos cursos no perfil do aluno, utilizando filtros SQL para garantir que os usuários pudessem acessar as informações de forma eficiente e personalizada.</p>
 <ul>
-  <li></li>
+  <li>
+    <p align="justify">Nessa funcionalidade de esqueci a senha, como demonstrado nas anotações do código, criei uma função que redefinia a senha do usuário que estava cadastrado no momento, depois eu recebia o e-mail desse usuário e validava se de fato existia tal e-mail no banco de dados, caso existisse um e-mail era disparado com a nova senha, e caso não existisse era informado para o usuário que o e-mail não foi encontrado</p>
+    <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/esqueci%20senha.png" width="50%" alt=""/></p>
+  </li>
+  <li>
+    <p align="justify">Essa função de exibição do carrinho, foi criado para que sempre que o cliente quissesse ele poderia clicar no botão de carrinho no topo da página para visualizar o estava atribuido a sua compra</p>
+    <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/exibirCarrinho.png" width="50%" alt=""/></p>
+  </li>
+  <li>
+    <p align="justify">Nesse função de login criei por etapas algumas validações para que o cliente começasse a utilizar o sistema, primeiro era recebido o e-mail e senha do frot end e armazenado como variavel, após isso, era realizado uma validação de consulta dentro do banco de dados, se exisstia o usuário, e se a senha inserida era correspondente ao que estava armazenado no banco, com base no retorno do banco, a sessão do cliente era iniciada, ou retornava um alerta informando que havia algum campo incorreto</p>
+    <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/login.png" width="50%" alt=""/></p> 
+  </li>
 </ul>
-<p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/esqueci%20senha.png" width="50%" alt=""/></p>
-<p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/exibirCarrinho.png" width="50%" alt=""/></p>
-<p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/login.png" width="50%" alt=""/></p> 
+
 <br>
 <h3>Lições Aprendidas</h3>
 <p align="justify"></p>
