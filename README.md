@@ -91,15 +91,28 @@ Com base nessa visão de criação, o sistema apresenta funcionalidades essencia
 No projeto, desenvolvi diversas funcionalidades cruciais como programador. Estas incluíram a criação de um sistema de cadastro para novos usuários, a implementação do mecanismo de login para autenticação no site, a facilitação da aquisição e acesso aos cursos - desde adicionar cursos ao carrinho até a conclusão do processo de pagamento. Além disso, fui responsável pela exibição dos cursos no perfil do aluno, utilizando filtros SQL para garantir que os usuários pudessem acessar as informações de forma eficiente e personalizada.</p>
 <ul>
   <li>
-    <p align="justify">Nessa funcionalidade de esqueci a senha, como demonstrado nas anotações do código, criei uma função que redefinia a senha do usuário que estava cadastrado no momento, depois eu recebia o e-mail desse usuário e validava se de fato existia tal e-mail no banco de dados, caso existisse um e-mail era disparado com a nova senha, e caso não existisse era informado para o usuário que o e-mail não foi encontrado</p>
+    <p align="justify">Na implementação da funcionalidade de recuperação de senha, desenvolvi um procedimento que aborda a redefinição da senha do usuário atualmente cadastrado. No fluxo estabelecido, a lógica consiste em criar uma nova senha segura e atualizar o registro correspondente no banco de dados. Posteriormente, é realizado um processo de verificação da existência do endereço de e-mail associado ao usuário.
+
+Após a redefinição bem-sucedida da senha, é crucial validar se o e-mail fornecido pelo usuário está presente no banco de dados. Caso seja identificado um registro correspondente, o sistema dispara um e-mail contendo a nova senha gerada. Em contrapartida, se o e-mail não for encontrado na base de dados, o usuário é informado de que não há correspondência.
+
+A estratégia adotada assegura que apenas usuários autenticados possam recuperar suas senhas, evitando a manipulação indevida do sistema. Além disso, a comunicação transparente com o usuário, por meio de mensagens específicas, contribui para uma experiência mais satisfatória, elucidando-o sobre o sucesso ou insucesso da operação de recuperação de senha. Este processo promove a segurança e a eficácia na gestão de senhas do sistema.
+</p>
     <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/esqueci%20senha.png" width="50%" alt=""/></p>
   </li>
   <li>
-    <p align="justify">Essa função de exibição do carrinho, foi criado para que sempre que o cliente quissesse ele poderia clicar no botão de carrinho no topo da página para visualizar o estava atribuido a sua compra</p>
+    <p align="justify">EA funcionalidade de exibição do carrinho foi implementada com o objetivo de proporcionar aos clientes a conveniência de visualizar, a qualquer momento, os itens selecionados para compra. Ao integrar um botão de carrinho no topo da página, os usuários têm a liberdade de acessar a visualização do conteúdo atribuído à sua compra com apenas um clique.
+
+Dessa forma, a experiência do cliente é aprimorada, permitindo uma gestão mais acessível e imediata dos produtos escolhidos. Ao oferecer essa facilidade de acesso ao carrinho, busca-se otimizar a interação do usuário com a plataforma, tornando o processo de compra mais intuitivo e eficiente
+</p>
     <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/exibirCarrinho.png" width="50%" alt=""/></p>
   </li>
   <li>
-    <p align="justify">Nesse função de login criei por etapas algumas validações para que o cliente começasse a utilizar o sistema, primeiro era recebido o e-mail e senha do frot end e armazenado como variavel, após isso, era realizado uma validação de consulta dentro do banco de dados, se exisstia o usuário, e se a senha inserida era correspondente ao que estava armazenado no banco, com base no retorno do banco, a sessão do cliente era iniciada, ou retornava um alerta informando que havia algum campo incorreto</p>
+    <p align="justify">Na função de login, implementei uma série de etapas para validar e permitir que o cliente inicie a utilização do sistema. O processo se desdobrava da seguinte maneira: inicialmente, o sistema recebia e armazenava como variáveis o e-mail e senha fornecidos pelo front end. Em seguida, era realizada uma validação por meio de uma consulta ao banco de dados para verificar a existência do usuário.
+
+A verificação incluía a confirmação de que o e-mail fornecido estava registrado no banco de dados e se a senha inserida correspondia à informação armazenada para aquele usuário específico. Com base no resultado dessa validação, dois caminhos eram possíveis: se a correspondência era encontrada, a sessão do cliente era iniciada, permitindo o acesso ao sistema. Caso contrário, era emitido um alerta, informando ao usuário sobre a presença de campos incorretos no processo de login.
+
+Essa abordagem em etapas visa garantir a segurança e a precisão durante o processo de autenticação, proporcionando ao cliente uma experiência transparente e, ao mesmo tempo, alertando sobre possíveis erros nos dados fornecidos.
+</p>
     <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/login.png" width="50%" alt=""/></p> 
   </li>
 </ul>
