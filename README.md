@@ -25,13 +25,13 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 <ul><a href="#Gestão-de-Ativação-de-Clientes">2º Semestre • 1/2022 • Gestão de Ativação de Clientes</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto-">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução-">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas-">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais-">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas-">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills-">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills-">Soft Skills</a></ul>
+    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
+    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
+    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
+    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
+    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
+    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
+    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
     </ul>
   </details>
 </ul>
@@ -41,13 +41,13 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 <ul><a href="#Consultoria-Meteorológica">3º Semestre • 2/2022 • Consultoria Meteorológica</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto--">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução--">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas--">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais--">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas--">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills--">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills--">Soft Skills</a></ul>
+    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
+    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
+    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
+    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
+    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
+    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
+    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
     </ul>
   </details>
 </ul>
@@ -56,13 +56,13 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 <ul><a href="#Controle-de-Laudo-de-Inspeção-Predial">4º Semestre • 2/2023 • Controle de Laudo de Inspeção Predial</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto---">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução---">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas---">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais---">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas---">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills---">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills---">Soft Skills</a></ul>
+    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
+    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
+    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
+    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
+    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
+    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
+    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
     </ul>
   </details>
 </ul>
@@ -71,13 +71,13 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 <ul><a href="#semestre5">5º Semestre • 2/2024 • Em Breve</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto----">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução----">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas----">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais----">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas----">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills----">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills----">Soft Skills</a></ul>
+    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
+    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
+    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
+    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
+    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
+    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
+    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
     </ul>
   </details>
 </ul>
@@ -86,13 +86,13 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 <ul><a href="#semestre6">6º Semestre • 1/2025 • Em Breve</a>
   <details>
     <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto-----">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução-----">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas-----">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais-----">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas-----">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills-----">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills-----">Soft Skills</a></ul>
+    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
+    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
+    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
+    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
+    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
+    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
+    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
     </ul>
   </details>
 </ul>
