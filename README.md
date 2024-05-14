@@ -250,7 +250,7 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
 <p align="justify">Como solução desse projeto, desenvolvemos um sistema que utiliza telas de cadastro para reunir as informações essenciais dos clientes. Estruturamos o sistema em várias etapas, cada uma dedicada a inserir e tratar uma parte específica dessas informações. Dessa forma, ao final do processo, obtivemos um cadastro completo do cliente no formato exigido pela Dom Rock.</p>
 
 <details>
-  <summary><b>Funcionalidade Escopo</b></summary>
+  <summary><b>Funcionalidade</b></summary>
   <br>
   <table align="center">
     <tr>
@@ -259,54 +259,18 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
     </tr>
   </table>
 </details>
-<p align="justify"> Na etapa de escopo, desenvolvemos uma tela inicial na qual o cliente preenchia os dados iniciais. Atribuímos o setor da empresa sendo cadastrada, selecionamos o plano ao qual ele estaria contratando e os produtos desse plano que ele gostaria. Por fim, definimos as entregas possíveis para o cliente, assim como os mínimos prometidos. </p>
-
-<details>
-  <summary><b>Funcionalidade Bronze</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Na etapa bronze, foram definidos como o cliente disponibilizaria os dados para erguermos o banco de dados e aplicar as ferramentas de análise de business intelligence. Estabelecemos a forma como esses dados seriam enviados para a empresa, a frequência desse envio e o tamanho dos arquivos.</p>
-
-<details>
-  <summary><b>Funcionalidade Silver</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Na etapa silver, a conclusão de todo o cadastro do cliente permitia uma validação. Caso estivesse tudo correto, poderíamos concluir, e o cliente passaria a ficar na etapa silver.</p>
-
-<details>
-  <summary><b>Funcionalidade Consulta</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Após finalizarmos as etapas e ativar o cliente, temos uma consulta onde podemos verificar todos os dados cadastrados do cliente e até mesmo realizar edições, caso necessário, para evitar possíveis erros em alguma etapa. Também há a opção de deletar o cliente no caso de desistência.</p>
+<p align="justify"> Descrição da funcionalidade </p>
 
 <br>
-<h3>Tecnologias Utilizadas </h3>
-<p align="justify"><a href="https://git-scm.com/">Git</p>
-<p align="justify"><a href="https://github.com/">GitHUB</p
-<p align="justify"><a href="https://www.java.com/pt-BR/">Java</p>
-<p align="justify"><a href="https://www.microsoft.com/pt-br/sql-server/sql-server-downloads">SQL Server</p
+<h3>Tecnologias Utilizadas</h3>
+<p align="justify"><a href="">Tecnoligia Utilizada</p>
 <br>
 
-<h3>Contribuições Pessoais </h3>
-<p align="justify">Como eu ajudei o projeto</p>
+<h3>Contribuições Pessoais</h3>
+<p align="justify">Na API em que atuei como Product Owner (PO), meu principal papel era agendar reuniões regularmente com o cliente para monitorar suas expectativas em relação ao projeto. Além disso, era responsável por administrar o processo para garantir que o time de desenvolvimento entregasse o necessário para atender a essas expectativas. Também desempenhava o papel de intermediário entre o time de desenvolvimento e o cliente, informando sobre o que poderia ou não ser desenvolvido e garantindo que o sistema final estivesse alinhado com o essencial para o cliente.
+
+Além da função de PO, também atuei como um dos desenvolvedores do back-end, responsável pela construção de algumas funções dentro do sistema.</p>
+
 <ul>
   <li>Lista de atividades desenvolvidas</li>
 </ul>
