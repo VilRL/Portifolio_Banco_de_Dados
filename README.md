@@ -233,8 +233,13 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
 <p><a href="#sumário">Voltar para o início</a></p>
 </div>
 <div class="semestre2">
+
+
+<hr>
+
+
 <h3>Gestão de Ativação de Clientes</h3>
-<h4>2º Semestre • 2/2020 • <a href="https://github.com/DatatechOffice/datatech_api">Repositório Github</a></h4>
+<h4>2º • 2/2020 • <a href="https://github.com/DatatechOffice/datatech_api">Repositório Github</a></h4>
 <p align="justify">Parceiro Acadêmico: <a href=https://www.domrock.net/"">Parceiro Acadêmico: Dom Rock</a></p>
 <p align="center"><img src="" widht="20%"></img>
 <p align="justify">Apresentamos nossa solução inovadora que proporcionou a gestão eficiente da ativação de clientes da empresa Dom Rock. Nossa abordagem incluiu a criação de interfaces intuitivas para cada etapa do processo, simplificando a ativação e o cadastro dos clientes.</p>
@@ -310,12 +315,17 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
 Além da função de PO, também atuei como um dos desenvolvedores do back-end, responsável pela construção de algumas funções dentro do sistema.</p>
 
 <ul>
-  <li>Lista de atividades desenvolvidas</li>
+  <li>Agendar Reuniões</li>
+  <li>Definir Prioridade</li>
+  <li>Monitorar Produto</li>
+  <li>Desenvolver Funções</li>
 </ul>
 <br>
 
 <h3>Lições Aprendidas </h3>
-<p align="justify">O que esse projeto me ensinou</p>
+<p aling="justify"> Este projeto me proporcionou uma valiosa experiência como Product Owner. A interação frequente com o cliente me ensinou a importância da comunicação clara e eficaz na gestão de expectativas. Aprender a administrar as demandas do cliente e traduzi-las em requisitos compreensíveis para o time de desenvolvimento foi um desafio, mas também uma oportunidade de crescimento profissional.
+
+Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvimento me permitiu desenvolver habilidades de negociação e resolução de conflitos. Compreender as necessidades e restrições de ambas as partes e encontrar soluções que atendessem aos interesses de ambas foi uma parte essencial do meu papel como PO.</p>
 
 <h3>Hard Skills </h3>
 <details>
