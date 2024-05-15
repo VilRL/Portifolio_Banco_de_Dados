@@ -249,7 +249,7 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
 <p align="justify">O ponto chave foi a modelagem adequada da base de dados, permitindo integrações com outros sistemas de forma transparente e eficiente. Com nossa solução, tornamos a ativação de clientes na plataforma Dom Rock um processo simplificado e otimizado </p>
 
 <h3>Arquitetura do Projeto </h3>
-<p align="center"><img src=""></img></p>
+<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/modelodobanco.png"></img></p>
 <br>
 <h3>Prévia da Solução </h3>
 <p align="justify">Como solução desse projeto, desenvolvemos um sistema que utiliza telas de cadastro para reunir as informações essenciais dos clientes. Estruturamos o sistema em várias etapas, cada uma dedicada a inserir e tratar uma parte específica dessas informações. Dessa forma, ao final do processo, obtivemos um cadastro completo do cliente no formato exigido pela Dom Rock.</p>
@@ -259,7 +259,7 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
   <br>
   <table align="center">
     <tr>
-      <td alignt="center"><img src=""alt=""/>
+      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/Escopo.png"alt=""/>
     </tr>
   </table>
 </details>
@@ -270,7 +270,7 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
   <br>
   <table align="center">
     <tr>
-      <td alignt="center"><img src="" alt=""/>
+      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/Bronze.png" alt=""/>
       </td>     
     </tr>
   </table>
@@ -282,7 +282,7 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
   <br>
   <table align="center">
     <tr>
-      <td alignt="center"><img src="" alt=""/>
+      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/silver.png" alt=""/>
       </td>     
     </tr>
   </table>
@@ -294,7 +294,7 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
   <br>
   <table align="center">
     <tr>
-      <td alignt="center"><img src="" alt=""/>
+      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/consulta.png" alt=""/>
       </td>     
     </tr>
   </table>
