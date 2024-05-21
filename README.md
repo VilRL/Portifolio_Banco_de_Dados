@@ -111,6 +111,7 @@ como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
 <p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/home%20Page.png" widht="20%"></img>
 <h4>1º Semestre • 2/2020 </h4>
 <p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
+  <p align="justify">Projeto <a href="https://github.com/DatatechOffice/datatech_api">Repositorio</a></p>
 <p align="justify"></p>
 <p align="justify">O CyberMind é um projeto inovador dedicado à criação de uma plataforma destinada à comercialização e acesso a uma ampla gama de cursos online. Nossa plataforma proporciona aos usuários a oportunidade de explorar e adquirir cursos ministrados por profissionais de destaque, embarcando em uma jornada de aprendizado por meio de vídeoaulas especializadas e de alta qualidade.</p>
 <br>
@@ -240,7 +241,7 @@ Essa abordagem em etapas visa garantir a segurança e a precisão durante o proc
 
 <h3>Gestão de Ativação de Clientes</h3>
 <h4>2º • 2/2020 • <a href="https://github.com/DatatechOffice/datatech_api">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href=https://www.domrock.net/"">Parceiro Acadêmico: Dom Rock</a></p>
+<p align="justify">Parceiro Acadêmico: <a href=https://www.domrock.net/"">Dom Rock</a></p>
 <p align="center"><img src="" widht="20%"></img>
 <p align="justify">Apresentamos nossa solução inovadora que proporcionou a gestão eficiente da ativação de clientes da empresa Dom Rock. Nossa abordagem incluiu a criação de interfaces intuitivas para cada etapa do processo, simplificando a ativação e o cadastro dos clientes.</p>
 
@@ -365,18 +366,21 @@ Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvim
 <br>
 <p><a href="#sumário">Voltar para o início</a></p>
 <hr>
+
+
 <div class="semestre3">
 <h3>Consultoria Meteorológica</h3>
 <h4>3º Semestre • 2/2022 • <a href="https://github.com/DatatechOffice/Api_Iacit/tree/main">Repositório Github</a></h4>
 <p align="justify">Parceiro Acadêmico: <a href="https://www.iacit.com.br/">IACIT</a></p>
-<p align="center"><img src="" widht="20%"></img>
-<p align="justify">Desafio</p>
-<p align="center"><img src=""></img></p>
+<br>
+<h3>Arquitetura do Projeto </h3>
+<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/modelodobanco.png"></img></p>
 <br>
 <h3>Prévia da Solução </h3>
-<p align="justify">Solução</p>
+<p align="justify">Desenvolver um sistema web, onde fosse possível realizar a extração e tratamento de dados meteorológicos através do site INEP fornecido pelo parceiro, além da persistência dos mesmos e por fim a visualização dos dados de forma que decisões pudessem ser realizadas, no caso foram utilizado gráficos e a filtragem dos dados pelo usuário para tal.</p>
+
 <details>
-  <summary><b>Funcionalidade</b></summary>
+  <summary><b> Cadastro </b></summary>
   <br>
   <table align="center">
     <tr>
@@ -385,22 +389,61 @@ Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvim
     </tr>
   </table>
 </details>
-<p align="justify"> Descrição da funcionalidade </p>
+<p align="justify"> Como base do sistema, como é necessário que um usuário fosse capaz salvar seus filtros de dados, criamos um cadastro para o usuario</p>
+
+<details>
+  <summary><b> Login </b></summary>
+  <br>
+  <table align="center">
+    <tr>
+      <td alignt="center"><img src="" alt=""/>
+      </td>     
+    </tr>
+  </table>
+</details>
+<p align="justify"> Com o cadastro criado, realizamos a implementação da tela de login para acessar o sistema e começar a puxar os dados necessários </p>
+
+<details>
+  <summary><b> Grafico </b></summary>
+  <br>
+  <table align="center">
+    <tr>
+      <td alignt="center"><img src="" alt=""/>
+      </td>     
+    </tr>
+  </table>
+</details>
+<p align="justify"> Essa é a função principal do nosso sistema: o usuário seleciona a data na qual deseja visualizar os dados. Em seguida, define-se a estação de coleta dos dados que havíamos extraído de arquivos de planilhas. Por fim, o sistema exibe um gráfico que muda de acordo com a variável selecionada, como, por exemplo, a temperatura. </p>
 
 <br>
 <h3>Tecnologias Utilizadas </h3>
-<p align="justify"><a href="">Tecnoligia Utilizada</p>
+<p align="justify"><a href="https://www.javascript.com/">JavaScript</p>
+<p align="justify"><a href="https://www.java.com/pt-BR/">Java</p>
+<p align="justify"><a href="https://spring.io/projects/spring-boot">Spring Boot</p>
+<p align="justify"><a href="https://www.python.org/">Python</p>
+<p align="justify"><a href="https://www.postgresql.org/">PostGreeSQL</p>
+<p align="justify"><a href="https://github.com/">GitHub</p>
+  <p align="justify"><a href="https://git-scm.com/">Git</p>
 <br>
 
 <h3>Contribuições Pessoais </h3>
-<p align="justify">Como eu ajudei o projeto</p>
-<ul>
-  <li>Lista de atividades desenvolvidas</li>
-</ul>
+<p align="justify">Nesse projeto, atuei como desenvolvedor full stack, realizando a construção do back-end para receber todos os dados persistidos pelos meus colaboradores. Dessa forma, criei as estruturas necessárias para disponibilizar os dados via API para cada campo do front-end. Após essa estruturação, desenvolvi no front-end o gráfico e seu comportamento de acordo com os dados recebidos do back-end.</p>
 <br>
 
 <h3>Lições Aprendidas </h3>
-<p align="justify">O que esse projeto me ensinou</p>
+<p align="justify">1. Persistência de Dados:
+Aprendi a importância de uma solução robusta para armazenar dados de forma confiável e eficiente. Explorei diferentes métodos e tecnologias de persistência, garantindo que as informações fossem salvas corretamente e pudessem ser recuperadas conforme necessário.</p>
+
+<p align="justify">2. Armazenamento de Dados:
+Desenvolvi a habilidade de organizar e estruturar os dados para facilitar a recuperação e a análise posterior. Este processo envolveu desde a escolha do banco de dados até a definição de esquemas que suportassem os requisitos do projeto.</p>
+
+<p align="justify">3. Exibição de Dados em Formato Gráfico:
+Um dos principais desafios foi transformar dados brutos em visualizações gráficas intuitivas e interativas. Trabalhei com várias bibliotecas de gráficos para o frontend, aprendendo a aplicar filtros e selecionar os tipos de gráficos mais adequados para diferentes conjuntos de </p>
+
+<p align="justify">4. Filtragem e Interatividade:
+Implementei funcionalidades que permitem aos usuários filtrar os dados de acordo com diferentes critérios e visualizar os resultados em tempo real. Essa interatividade melhora a experiência do usuário, tornando a análise de dados mais dinâmica e personalizada.</p>
+
+<p align="justify">Este projeto não só fortaleceu minha base teórica, mas também me permitiu aplicar conhecimentos práticos na criação de soluções que facilitam a interpretação de dados complexos. A capacidade de transformar dados em insights visuais é uma habilidade valiosa que adicionei ao meu portfólio, demonstrando minha competência em tecnologias modernas de desenvolvimento web.</p>
 
 <h3>Hard Skills </h3>
 <details>
