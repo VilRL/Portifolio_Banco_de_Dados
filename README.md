@@ -374,7 +374,7 @@ Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvim
 <p align="justify">Parceiro Acadêmico: <a href="https://www.iacit.com.br/">IACIT</a></p>
 <br>
 <h3>Arquitetura do Projeto </h3>
-<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/modelodobanco.png"></img></p>
+<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Arquitetura%20do%20Sistema.png"></img></p>
 <br>
 <h3>Prévia da Solução </h3>
 <p align="justify">Desenvolver um sistema web, onde fosse possível realizar a extração e tratamento de dados meteorológicos através do site INEP fornecido pelo parceiro, além da persistência dos mesmos e por fim a visualização dos dados de forma que decisões pudessem ser realizadas, no caso foram utilizado gráficos e a filtragem dos dados pelo usuário para tal.</p>
@@ -384,7 +384,7 @@ Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvim
   <br>
   <table align="center">
     <tr>
-      <td alignt="center"><img src="" alt=""/>
+      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Cadastro.png" alt=""/>
       </td>     
     </tr>
   </table>
@@ -396,7 +396,7 @@ Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvim
   <br>
   <table align="center">
     <tr>
-      <td alignt="center"><img src="" alt=""/>
+      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Login.png" alt=""/>
       </td>     
     </tr>
   </table>
@@ -408,7 +408,7 @@ Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvim
   <br>
   <table align="center">
     <tr>
-      <td alignt="center"><img src="" alt=""/>
+      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Dados.png" alt=""/>
       </td>     
     </tr>
   </table>
@@ -429,6 +429,8 @@ Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvim
 <h3>Contribuições Pessoais </h3>
 <p align="justify">Nesse projeto, atuei como desenvolvedor full stack, realizando a construção do back-end para receber todos os dados persistidos pelos meus colaboradores. Dessa forma, criei as estruturas necessárias para disponibilizar os dados via API para cada campo do front-end. Após essa estruturação, desenvolvi no front-end o gráfico e seu comportamento de acordo com os dados recebidos do back-end.</p>
 <br>
+<img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/front%20end.png" alt=""/>
+
 
 <h3>Lições Aprendidas </h3>
 <p align="justify">1. Persistência de Dados:
