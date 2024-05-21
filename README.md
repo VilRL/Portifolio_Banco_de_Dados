@@ -485,15 +485,17 @@ Implementei funcionalidades que permitem aos usuários filtrar os dados de acord
 <br>
 <p><a href="#sumário">Voltar para o início</a></p>
 <hr>
+
+
 <div class="semestre4">
-<h3>Processos Otimizados de Contas</h3>
+<h3>Controle de Laudos de Inspeção Predial</h3>
 <h4>4º Semestre • 2/2023 • <a href="">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href="https://tecsus.com.br/">TecSUS Tecnologias para a Sustentabilidade</a></p>
+<p align="justify">Parceiro Acadêmico: <a href="[https://tecsus.com.br/](https://www.jaia.software/)">Jaia Software</a></p>
 <p align="center"><img src="" widht="20%"></img>
-<p align="justify"> Desafio </h3>
 <br>
-<h3>Prévia da Solução </h3>
-<p align="justify"> Solução </p>
+<h3>Desafio </h3>
+<p align="justify"> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando o patrimônio em risco, garantindo assim a segurança, a qualidade e a manutenção e gerenciamento de riscos. </p>
+  
 <details>
   <summary><b>Funcionalidade Cadastrar Fornecedor e Conta</b></summary>
   <br>
