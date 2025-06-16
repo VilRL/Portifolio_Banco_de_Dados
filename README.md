@@ -1,578 +1,759 @@
-<h1>Portfólio das APIs - Vitor Luiz Rodrigues de Lima</h1>
-<p align="justify">Trabalho de Apresentação na modalidade Portfólio das Aprendizagens a partir de Projeto Integrador (APIs),
-apresentado à Faculdade de Tecnologia de São José dos Campos,
-como parte da disciplina de Metodologia da Pesquisa Cientifica Tecnologica.</p>
-<hr>
-<h2>Sumário</h2>
-<p>◻️ <a href="#sobre-mim">Sobre mim</a></p>
-<p>◻️ <a href="#meus-projetos">Meus Projetos</a></p>
-<div class="semestre1">
-<ul><a href="#CyberMind">1º Semestre • 1/2020 • CyberMind</a>
-  <details>
-    <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
-    </ul>
-  </details>
-</ul>
+<!-- Seções do portfólio -->
+<div id="topo">
+  <h1>Meu Portfólio dos Projetos API's  FATEC São José dos Campos - Jessen Vidal</h1>
 </div>
-<div class="semestre2">
-<ul><a href="#Gestão-de-Ativação-de-Clientes">2º Semestre • 1/2022 • Gestão de Ativação de Clientes</a>
-  <details>
-    <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
-    </ul>
-  </details>
-</ul>
+
+<img src="[E:/Faculdade/Portifolio_github/Imagens/profile.jpeg](https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/Resume/IMG_20231012_190945.jpg)" width="300" height="auto">
+
+## Sobre Mim
+
+Desde cedo, fui atraído pelos desafios do universo tecnológico, e encontrei na programação um campo dinâmico que exige aprendizado contínuo e raciocínio lógico. Em 2020, conclui o curso técnico em Análise e Desenvolvimento de Sistemas na ETEC, e, ainda durante essa formação, ingressei na Graduação em Banco de Dados na FATEC São José dos Campos.
+
+Ao longo da minha jornada acadêmica, desenvolvi afinidade especialmente pelo back-end, área em que valorizo a organização do código e a eficiência das soluções — elementos fundamentais para criar sistemas robustos, mesmo quando seu funcionamento interno não é percebido pelos usuários finais.
+
+Atualmente, atuo como Desenvolvedor Júnior na Lexos Tecnologia e Soluções (desde 2022), onde sou responsável pela análise e correção de bugs reportados pelo time de suporte. Nesse papel, faço o diagnóstico aprofundado de falhas, identifico suas causas raízes e implemento correções que asseguram a estabilidade e a performance da plataforma. Essa experiência prática tem sido essencial para aprimorar minhas habilidades, escrita de código limpo e colaboração em equipes ageis.
+
+Com este portfólio, apresento seis semestres de projetos acadêmicos que refletem minha evolução técnica e minha capacidade ao decorrer da minha trajetoria na faculdade
+
+### Contato
+
+- **Email**: [vitor02office@gmail.com](mailto:vitor02office@gmail.com)  
+- **LinkedIn**: [https://www.linkedin.com/in/vitor-lima-dev/](https://www.linkedin.com/in/vitor-lima-dev/)
+
+
+### 🚀 Projetos por Semestre
+
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Projeto</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Descrição</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Cliente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#portfolio1">1º Semestre</a></td>
+      <td>Site de e-commerce para disponibilização de conteúdos didáticos, fomentando a cultura e agregando valor conforme as regras de negócio.</td>
+      <td>Fatec</td>
+    </tr>
+    <tr>
+      <td><a href="#portfolio2">2º Semestre</a></td>
+      <td>Solução para gestão da ativação de clientes na plataforma Dom Rock, com modelagem de dados para futuras integrações e geração de relatórios.</td>
+      <td>Dom Rock</td>
+    </tr>
+    <tr>
+      <td><a href="#portfolio3">3º Semestre</a></td>
+      <td>Sistema de automação de importação e armazenamento de dados meteorológicos, com geração de relatórios customizados para consultoria.</td>
+      <td>IACIT</td>
+    </tr>
+    <tr>
+      <td><a href="#portfolio4">4º Semestre</a></td>
+      <td>Aplicação para controle de anomalias em laudos de inspeção predial, gerenciando manutenções preventivas e corretivas para garantir segurança e qualidade.</td>
+      <td>JAIA</td>
+    </tr>
+    <tr>
+      <td><a href="#portfolio5">5º Semestre</a></td>
+      <td>Dashboard interativo com relatórios dinâmicos para análise de recrutamento e seleção.</td>
+      <td>Pro4Tech</td>
+    </tr>
+    <tr>
+      <td><a href="#portfolio6">6º Semestre</a></td>
+      <td>API com Inteligência Artificial para gestão de áreas reflorestadas e análise ambiental.</td>
+      <td>Kersys</td>
+    </tr>                                               
+  </tbody>
+</table>
+
+<br>
+
+<div id="#portfolio1">
+  <h2>Projeto 1º Semestre</h2>
+  <p><a href="https://github.com/arapujo/pi_primeiro_semestre?tab=readme-ov-file#ancora4" target="_blank">Repositório no GitHub</a></p>
+
+  <h3>Descrição do Projeto</h3>
+  <p>
+  Plataforma de e-commerce para disponibilização de cursos e videoaulas voltados à tecnologia. Inclui funcionalidades de cadastro, login, recuperação de senha, carrinho de compras e painel de cursos adquiridos. O layout responsivo e minimalista, com predominância de azul e branco, prioriza a usabilidade e reforça a identidade educacional.
+  </p>
+
+  <h3>Objetivos</h3>
+  <ul>
+    <li>Desenvolver uma plataforma de e‑commerce educacional com fluxo completo: cadastro, login, recuperação de senha, carrinho de compras e painel de cursos.</li>
+    <li>Assegurar segurança e confiabilidade por meio de autenticação robusta, gerenciamento de sessões e funcionalidade de recuperação de senha utilizando PHPMailer.</li>
+    <li>Oferecer uma interface intuitiva e responsiva com validações, design clean (azul e branco) e foco na melhor experiência em diferentes dispositivos.</li>
+    <li>Otimizar performance do backend com consultas MySQL eficientes, arquitetura organizada e boas práticas de engenharia de software.</li>
+    <li>Simular um ambiente de negócios real com regras comerciais aplicadas, agregando validade prática e profissional ao projeto.</li>
+  </ul>
+
+  <h3>Lições Aprendidas e Desafios</h3>
+  <p>
+    Durante o desenvolvimento deste projeto, foi assumida a construção completa do backend com PHP e MySQL como base da lógica de negócios. Foram implementadas funcionalidades essenciais — cadastro, login, recuperação de senha via PHPMailer, carrinho de compras e exibição dos cursos adquiridos — juntamente com o gerenciamento de sessões e autenticação, com atenção especial à segurança e integridade dos dados. A modelagem de banco de dados foi otimizada com tabelas eficientes e consultas com filtros e índices, reduzindo a carga no servidor e aprimorando o tempo de resposta do sistema.
+  </p>
+  <p>
+    Desafios técnicos evidenciaram habilidades comportamentais importantes. A persistência foi determinante na solução de falhas complexas relacionadas à sessão e autenticação. A comunicação facilitou o alinhamento de requisitos e garantiu a adequação do sistema às expectativas do cliente (Fatec). A colaboração com a equipe foi essencial para integrar o backend ao frontend responsivo. A capacidade de resolução de problemas permitiu repetidas iterações até consolidar fluxos estáveis no carrinho, recuperação de senha e consultas ao banco.
+  </p>
+  <p>
+    Todos os commits marcados como “virl” ou “vitor lima” no repositório documentam a autoria do trabalho, reforçando o envolvimento direto em todos os módulos de backend. Essa experiência fortaleceu não apenas as competências técnicas, mas também a postura profissional, fornecendo uma base sólida para a criação de sistemas futuros que sejam mais complexos, seguros e escaláveis.
+  </p>
+
+  <h3>Tabela de Hard Skills</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Descrição</th>
+          <th>Atuação no Projeto</th>
+          <th>Nível</th>
+        </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td>PHP</td>
+        <td>Desenvolvimento de back-end em servidor</td>
+        <td>Implementação de funcionalidades como login, cadastro, recuperação de senha, carrinho de compras e painel de cursos</td>
+        <td>Autônomo</td>
+      </tr>
+      <tr>
+        <td>MySQL</td>
+        <td>Banco de dados relacional</td>
+        <td>Modelagem de tabelas e criação de consultas otimizadas com filtros personalizados</td>
+        <td>Avançado (com ajuda)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Tabela de Soft Skills</h3>
+    <table>
+    <thead>
+    <tr>
+    <th>Skill</th>
+    <th>Descrição</th>
+    <th>Aplicação</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Persistência</td>
+        <td>Superação de desafios técnicos contínuos</td>
+        <td>Busca por soluções para manipulação de grandes volumes de dados e resolução de problemas complexos</td>
+      </tr>
+      <tr>
+        <td>Comunicação</td>
+        <td>Clareza na troca de informações</td>
+        <td>Alinhamento de expectativas com stakeholders em ambiente remoto</td>
+      </tr>
+      <tr>
+        <td>Colaboração</td>
+        <td>Trabalho em equipe para objetivos comuns</td>
+        <td>Integração de esforços para resolver desafios técnicos</td>
+      </tr>
+      <tr>
+        <td>Resolução de Problemas</td>
+        <td>Análise crítica e prática de soluções</td>
+        <td>Testes de cenários para validar lógica condicional e experiência do usuário</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><a href="#topo">Voltar ao topo</a></p>
 </div>
+
+<br><br>
+
+<div id="#portfolio2">
+  <h2>Projeto 2º Semestre</h2>
+  <p><a href="https://github.com/DatatechOffice/datatech_api" target="_blank">Repositório no GitHub</a></p>
+
+  <h3>Descrição do Projeto</h3>
+  <p>
+    O projeto visa desenvolver uma solução para a gestão de ativação de clientes na plataforma Dom Rock. A proposta é criar uma ferramenta que permita a entrada de dados de parâmetros e variáveis específicas de cada cliente, estimando o consumo de recursos com base em métricas como volume de dados e número de usuários. Além disso, a solução busca gerar relatórios e consultas para acompanhamento e análise, otimizando a alocação de recursos na plataforma e garantindo eficiência e escalabilidade.
+  </p>
+
+  <h3>Objetivos</h3>
+  <ul>
+    <li>Desenvolver uma API para a gestão de ativação de clientes na plataforma Dom Rock.</li>
+    <li>Implementar funcionalidades para entrada de dados de parâmetros e variáveis específicas de cada cliente.</li>
+    <li>Estimar o consumo de recursos com base em métricas como volume de dados e número de usuários.</li>
+    <li>Gerar relatórios e consultas para acompanhamento e análise da ativação dos clientes.</li>
+    <li>Garantir que a solução seja escalável e eficiente, atendendo às necessidades da plataforma Dom Rock.</li>
+  </ul>
+
+  <h3>Lições Aprendidas e Desafios</h3>
+  <p>
+    Neste projeto, assumi pela primeira vez o papel de Product Owner dentro da metodologia Scrum, o que me proporcionou aprendizado valioso em comunicação, negociação e gestão de expectativas. Passei a mediar com eficácia as demandas do cliente, apresentando opções claras e direcionadas ao time, evitando escopo indefinido — prática que fortaleceu minha habilidade de alinhamento com as metas estabelecidas desde o início.
+  </p>
+  <p>
+    Paralelamente às atividades de PO, atuei também como desenvolvedor backend em Java, implementando telas e funcionalidades essenciais. A saída de integrantes da equipe aumentou significativamente a carga de trabalho, exigindo resiliência, organização e planejamento. Aprimorei minha capacidade de alternar papéis de liderança e execução, mantendo a produtividade mesmo sob pressão.
+  </p>
+  <p>
+    O exercício de priorização e gestão de backlog reforçou competências como pensamento analítico e estratégia de produto. Comuniquei com clareza comprometimento técnico e prazos, garantindo entregas alinhadas ao valor esperado pelo cliente. A experiência trouxe ainda evolução em habilidades como adaptabilidade, empatia e autogestão, essenciais ao conciliar papéis diversos dentro de um mesmo ciclo de sprint.
+  </p>
+
+  <h3>Tabela de Hard Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Descrição</th>
+        <th>Atuação no Projeto</th>
+        <th>Nível</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Java</td>
+        <td>Linguagem de programação orientada a objetos</td>
+        <td>Desenvolveu lógica de inserção, consulta e exclusão de dados no backend da API Dom Rock</td>
+        <td>Autônomo</td>
+      </tr>
+      <tr>
+        <td>MVC (Model‑View‑Controller)</td>
+        <td>Arquitetura que separa lógica de negócios da interface</td>
+        <td>Estruturou backend e interfaces administrativas seguindo padrões MVC para organização e escalabilidade</td>
+        <td>Autônomo</td>
+      </tr>
+      <tr>
+        <td>DAO (Data Access Object)</td>
+        <td>Padrão para abstração de acesso a dados</td>
+        <td>Implementou classes DAO para modularizar o acesso ao banco, facilitando testes e manutenção</td>
+        <td>Autônomo</td>
+      </tr>
+      <tr>
+        <td>Jira & Burndown</td>
+        <td>Ferramental ágil para gestão de tarefas e progresso de sprints</td>
+        <td>Como PO, planejou sprints e acompanhou burndowns, alinhando tarefas com o time e ajustando o backlog conforme prioridades</td>
+        <td>Intermediário</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Tabela de Soft Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Descrição</th>
+        <th>Aplicação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Liderança Colaborativa</td>
+        <td>Capacidade de guiar a equipe mantendo o foco em metas compartilhadas</td>
+        <td>Atuação como PO, mediando as necessidades do cliente e priorizando as entregas viáveis com o time</td>
+      </tr>
+      <tr>
+        <td>Comunicação Eficaz</td>
+        <td>Clareza e objetividade na troca de informações entre áreas técnicas e de negócio</td>
+        <td>Facilitação do entendimento entre as partes técnicas e o cliente, traduzindo requisitos em funcionalidades</td>
+      </tr>
+      <tr>
+        <td>Resiliência</td>
+        <td>Capacidade de manter-se produtivo diante de adversidades</td>
+        <td>Adaptação diante da saída de membros da equipe, assumindo responsabilidades adicionais</td>
+      </tr>
+      <tr>
+        <td>Gestão de Tempo</td>
+        <td>Organização e priorização de tarefas para cumprir prazos e escopos</td>
+        <td>Equilíbrio entre funções de PO e desenvolvedor, com entregas técnicas e reuniões de alinhamento</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><a href="#topo">Voltar ao topo</a></p>
 </div>
-<div class="semestre3">
-<ul><a href="#Consultoria-Meteorológica">3º Semestre • 2/2022 • Consultoria Meteorológica</a>
-  <details>
-    <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
-    </ul>
-  </details>
-</ul>
+
+<br><br>
+
+<div id="portfolio3">
+  <h2> Projeto 3º Semestre</h2>
+  <p><a href="https://github.com/DatatechOffice/Api_Iacit" target="_blank">Repositório no GitHub</a></p>
+
+  <h3>Descrição do Projeto</h3>
+  <p>
+    Este projeto foi desenvolvido para atender a uma demanda da empresa de consultoria meteorológica IACIT, que enfrenta desafios relacionados ao processamento manual e repetitivo de grandes volumes de dados meteorológicos. A solução proposta consiste em uma aplicação capaz de realizar a importação automatizada de dados fornecidos pelo Instituto Nacional de Meteorologia (INMET), armazenando essas informações em uma base estruturada para facilitar sua manipulação e posterior geração de relatórios personalizados. A plataforma visa otimizar o tempo dos colaboradores, reduzir erros operacionais e entregar relatórios de forma mais eficiente aos clientes.
+  </p>
+
+  <h3>Objetivos</h3>
+  <ul>
+    <li>Desenvolver um sistema web capaz de importar e armazenar dados meteorológicos do INMET, desde o ano de 2020 até o período atual.</li>
+    <li>Permitir que funcionários filtrem os dados meteorológicos por data, região, estado, estação e variável de forma rápida e intuitiva.</li>
+    <li>Gerar relatórios personalizados contendo gráficos de linha e planilhas a partir dos filtros aplicados.</li>
+    <li>Implementar uma camada de autenticação que permita o controle de acesso de usuários comuns e administradores.</li>
+    <li>Disponibilizar funcionalidades administrativas para o gerenciamento de usuários e relatórios.</li>
+    <li>Reduzir o tempo e os recursos gastos com o processamento manual das informações meteorológicas.</li>
+  </ul>
+
+
+  <h3>Lições Aprendidas e Desafios</h3>
+  <p>
+    Neste projeto, retornei à função de desenvolvedor back-end, explorando uma nova stack: o Spring Boot. Essa mudança tecnológica exigiu uma postura ativa de aprendizado, uma vez que precisei compreender as diferenças entre uma aplicação tradicional em Java e uma arquitetura orientada à web. Um dos primeiros passos foi analisar a modelagem do banco de dados, o que exigiu não apenas raciocínio lógico, mas também colaboração com os colegas responsáveis pela modelagem, reforçando minha habilidade de trabalho em equipe em um ambiente ágil.
+  </p>
+  <p>
+    A construção dos endpoints REST exigiu atenção à forma como os dados seriam consumidos pelo front-end, levando-me a exercitar comunicação efetiva com os desenvolvedores da interface. Alinhar expectativas e garantir consistência entre os dados servidos e o que era necessário para as funcionalidades reforçou minha capacidade de escuta ativa e cooperação multidisciplinar.
+  </p>
+  <p>
+    Um dos principais desafios técnicos foi implementar o controle de níveis de acesso com Spring Security. Compreender o funcionamento da autenticação via JWT, bloquear corretamente os endpoints e garantir a persistência segura dos tokens exigiu persistência, estudo contínuo e muitas iterações — o que me ajudou a desenvolver fortemente minha resiliência e autonomia na resolução de problemas complexos.
+  </p>
+  <p>
+    Além das tarefas do back-end, colaborei proativamente no front-end para criar a lógica de filtros dinâmicos, onde, por exemplo, ao selecionar um estado como "Rio de Janeiro", cidades incompatíveis como “São José dos Campos” eram ocultadas. Essa funcionalidade exigiu visão de produto e empatia com o usuário, garantindo uma experiência mais fluida e inteligente.
+  </p>
+
+  <h3>Tabela de Hard Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Hard Skill</th>
+        <th>Descrição</th>
+        <th>O que fiz no projeto</th>
+        <th>Nível adquirido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Java</td>
+        <td>Linguagem de programação orientada a objetos, utilizada para o desenvolvimento da aplicação.</td>
+        <td>Implementei a lógica de negócio da API, manipulação de dados e integração com o banco de dados utilizando Java.</td>
+        <td>Sei fazer sozinho</td>
+      </tr>
+      <tr>
+        <td>Maven</td>
+        <td>Ferramenta de automação de build e gerenciamento de dependências para projetos Java.</td>
+        <td>Utilizei o Maven para configurar o projeto, importar bibliotecas como Spring Boot, Jakarta Validation e Swagger.</td>
+        <td>Sei fazer com ajuda</td>
+      </tr>
+      <tr>
+        <td>Spring Boot</td>
+        <td>Framework para desenvolvimento de aplicações Java baseadas em microserviços e APIs REST.</td>
+        <td>Desenvolvi os endpoints RESTful, implementei autenticação com Spring Security e organizei as camadas da aplicação.</td>
+        <td>Sei fazer com ajuda</td>
+      </tr>
+      <tr>
+        <td>REST</td>
+        <td>Estilo arquitetural para construção de serviços web baseados em recursos e métodos HTTP.</td>
+        <td>Implementei e documentei os endpoints da API seguindo o padrão REST, garantindo comunicação entre front-end e back-end.</td>
+        <td>Sei fazer sozinho</td>
+      </tr>
+    </tbody>
+  </table>
+
+ <h3>Tabela de Soft Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+        <th>Como usei no projeto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Trabalho em Equipe</td>
+        <td>Capacidade de colaborar efetivamente com colegas para alcançar objetivos comuns.</td>
+        <td>Colaborei com desenvolvedores de banco de dados e front-end, alinhando a modelagem e o consumo de dados para a API funcionar de forma integrada.</td>
+      </tr>
+      <tr>
+        <td>Comunicação Efetiva</td>
+        <td>Habilidade de expressar ideias claramente e alinhar expectativas com stakeholders.</td>
+        <td>Troquei informações com o time de front-end para garantir que os dados da API fossem utilizados corretamente nos filtros e interfaces.</td>
+      </tr>
+      <tr>
+        <td>Escuta Ativa</td>
+        <td>Capacidade de compreender e considerar o ponto de vista dos outros para melhorar resultados.</td>
+        <td>Entendi as necessidades do front-end para ajustar o formato e filtros dos dados retornados pela API.</td>
+      </tr>
+      <tr>
+        <td>Resiliência</td>
+        <td>Persistência diante de dificuldades e disposição para aprender continuamente.</td>
+        <td>Dediquei várias horas para dominar o Spring Security e resolver problemas complexos de autenticação e autorização.</td>
+      </tr>
+      <tr>
+        <td>Autonomia</td>
+        <td>Capacidade de executar tarefas de forma independente e resolver problemas sem supervisão constante.</td>
+        <td>Conduzi o desenvolvimento e testes da autenticação JWT de forma independente, até obter um funcionamento estável.</td>
+      </tr>
+      <tr>
+        <td>Visão de Produto</td>
+        <td>Compreensão do impacto das funcionalidades para o usuário final e para o negócio.</td>
+        <td>Criei filtros dinâmicos no front-end que melhoraram a usabilidade e a experiência do usuário com a plataforma.</td>
+      </tr>
+      <tr>
+        <td>Empatia</td>
+        <td>Capacidade de se colocar no lugar do usuário para entender suas necessidades e dificuldades.</td>
+        <td>Desenvolvi filtros que evitam opções incompatíveis, tornando a navegação mais intuitiva para os usuários.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><a href="#topo">Voltar ao topo</a></p>
 </div>
-<div class="semestre4">
-<ul><a href="#Controle-de-Laudo-de-Inspeção-Predial">4º Semestre • 2/2023 • Controle de Laudo de Inspeção Predial</a>
-  <details>
-    <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
-    </ul>
-  </details>
-</ul>
+
+<br><br>
+
+<div id="portfolio4">
+  <h2> Projeto 4º Semestre</h2>
+  <p><a href="https://github.com/Great-Pretender/GreatPretender-API" target="_blank">Repositório no GitHub</a></p>
+
+  <h3>Descrição do Projeto</h3>
+  <p>
+  Um serviço backend desenvolvido para gerenciar inspeções prediais e manutenção de anomalias detectadas em laudos técnicos. A aplicação oferece endpoints REST que permitem o cadastro, acompanhamento e controle de ordens de serviço, contemplando processos de manutenção preventiva e corretiva. A API suporta níveis de usuário diferenciados (como responsável, supervisor e executor), assegurando que cada etapa do fluxo — desde a criação do laudo até a conclusão do serviço — seja devidamente registrada e monitorada.
+  </p>
+
+  <h3>Objetivo do Projeto</h3>
+  <ul>
+    <li>Criar uma API robusta para controle de inspeções prediais e anomalias detectadas em laudos técnicos.</li>
+    <li>Gerenciar ordens de serviço (OS) para manutenções preventivas e corretivas, garantindo rastreabilidade das ações.</li>
+    <li>Implementar perfis de usuário com alçadas específicas (responsável, supervisor, executor), controlando permissões de acesso e confirmação de etapas.</li>
+    <li>Facilitar a solicitação de serviços via landing page ou QR code, conectando a demanda ao técnico responsável.</li>
+    <li>Agendar e direcionar tarefas, assegurando comunicação clara e visibilidade de status em cada fase do atendimento.</li>
+    <li>Oferecer uma interface intuitiva e amigável, alinhada às expectativas dos usuários finais.</li>
+  </ul>
+
+  <h3>Lições Aprendidas e Desafios</h3>
+  <p>
+  Diferente dos projetos anteriores, neste tomei pela primeira vez a posição de Scrum Master dentro do time. Foi um papel desafiador, pois exigiu que eu me afastasse do desenvolvimento direto e do contato técnico constante com o código para assumir uma postura de liderança, facilitador e organizador do fluxo de trabalho.
+  </p>
+  <p>
+  Utilizando ferramentas como Discord e WhatsApp, estive constantemente monitorando o andamento das tarefas, organizando o time e intervindo quando surgiam dúvidas, impedimentos ou desalinhamentos. Um dos principais aprendizados foi perceber a importância de manter a equipe engajada e orientada, mesmo à distância, buscando sempre incentivar a comunicação transparente e o senso de responsabilidade coletiva.
+  </p>
+  <p>
+  Enfrentamos desafios relevantes durante o ciclo de desenvolvimento, como a desistência de uma integrante e a ausência prolongada de um desenvolvedor. Ainda assim, busquei manter o time focado nas entregas, adaptando o planejamento conforme a capacidade real e atuando junto ao Product Owner para manter a coerência entre o que estava sendo prometido ao cliente e o que era possível entregar tecnicamente.
+  </p>
+  <p>
+  Atuei promovendo sessões de alinhamento e brainstorming para solucionar problemas técnicos e de processo, o que contribuiu diretamente para o amadurecimento da equipe e o fortalecimento de minha habilidade de liderança, gestão de conflitos e adaptabilidade em cenários adversos.
+  </p>
+
+  <h3>Tabela de Hard Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Hard Skill</th>
+        <th>Descrição</th>
+        <th>O que fiz no projeto</th>
+        <th>Nível adquirido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Scrum</td>
+        <td>Framework ágil para gestão de projetos com ciclos iterativos e entregas contínuas.</td>
+        <td>Atuei como Scrum Master, organizando sprints, facilitando reuniões, removendo impedimentos e promovendo a colaboração entre time e PO.</td>
+        <td>Sei fazer sozinho</td>
+      </tr>
+      <tr>
+        <td>Gestão de Equipes</td>
+        <td>Coordenação de times de desenvolvimento para garantir produtividade e foco nas metas.</td>
+        <td>Liderei a equipe durante o projeto, mesmo com ausências e mudanças, mantendo o foco nas entregas e adaptando os planejamentos.</td>
+        <td>Sei fazer com ajuda</td>
+      </tr>
+      <tr>
+        <td>Facilitação de Reuniões</td>
+        <td>Habilidade de conduzir encontros produtivos com escuta ativa e foco nos objetivos do time.</td>
+        <td>Promovi alinhamentos constantes, daily meetings e sessões de brainstorm para resolver problemas e definir prioridades.</td>
+        <td>Sei fazer sozinho</td>
+      </tr>
+      <tr>
+        <td>Comunicação Digital</td>
+        <td>Uso de ferramentas online para engajamento e acompanhamento do time remoto.</td>
+        <td>Utilizei Discord e WhatsApp para coordenar o time, enviar lembretes, tirar dúvidas e alinhar expectativas com clareza.</td>
+        <td>Sei fazer sozinho</td>
+      </tr>
+      <tr>
+        <td>Gestão de Riscos</td>
+        <td>Identificação e resposta a eventos que podem impactar negativamente o projeto.</td>
+        <td>Replanejei as entregas após a saída de uma integrante e ausência prolongada de outro, ajustando a carga do time para manter a qualidade.</td>
+        <td>Sei fazer com ajuda</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Tabela de Soft Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+        <th>Como usei no projeto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Liderança</td>
+        <td>Capacidade de guiar, motivar e apoiar um time rumo aos objetivos comuns.</td>
+        <td>Assumi a função de Scrum Master, orientando o time durante o desenvolvimento e mantendo o foco nas entregas.</td>
+      </tr>
+      <tr>
+        <td>Comunicação Efetiva</td>
+        <td>Expressar ideias com clareza e garantir alinhamento entre os membros da equipe.</td>
+        <td>Utilizei ferramentas como Discord e WhatsApp para manter o time conectado, esclarecer dúvidas e compartilhar direcionamentos.</td>
+      </tr>
+      <tr>
+        <td>Gestão de Conflitos</td>
+        <td>Resolver desentendimentos e promover um ambiente colaborativo.</td>
+        <td>Intervi em momentos de desalinhamento e ausência de membros, garantindo que os demais pudessem seguir com suas atividades.</td>
+      </tr>
+      <tr>
+        <td>Organização</td>
+        <td>Planejar e acompanhar tarefas com foco em eficiência e cumprimento de prazos.</td>
+        <td>Monitorei o progresso do time, levantando pontos de atraso e organizando prioridades a cada sprint.</td>
+      </tr>
+      <tr>
+        <td>Resiliência</td>
+        <td>Persistência diante de obstáculos e capacidade de adaptação.</td>
+        <td>Mesmo com a saída de um integrante e ausência de outro, mantive o time coeso e ajustei o planejamento conforme a nova realidade.</td>
+      </tr>
+      <tr>
+        <td>Proatividade</td>
+        <td>Tomar iniciativa para resolver problemas sem esperar ordens.</td>
+        <td>Antecipei impedimentos e conduzi sessões de brainstorm para buscar soluções com o time.</td>
+      </tr>
+      <tr>
+        <td>Empatia</td>
+        <td>Compreender os sentimentos e limitações dos outros.</td>
+        <td>Busquei entender os desafios pessoais dos membros para melhor distribuir as demandas e manter o clima positivo.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a href="#topo">Voltar ao topo</a>
+
 </div>
-<div class="semestre5">
-<ul><a href="#semestre5">5º Semestre • 2/2024 • Em Breve</a>
-  <details>
-    <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
-    </ul>
-  </details>
-</ul>
+
+<br><br>
+
+<div id="portfolio5">
+  <h2> Projeto 5º Semestre</h2>
+  <p><a href="https://github.com/Localhost-305/LocalHost305?tab=readme-ov-file" target="_blank">Repositório no GitHub</a></p>
+
+  <h3>Descrição do Projeto</h3>
+  <p>
+    O projeto desenvolvido no 5º semestre teve como foco a construção de um dashboard interativo para análise e visualização de dados do processo de recrutamento e seleção de uma empresa. A plataforma foi pensada para oferecer insights estratégicos, apoiando gestores e equipes de RH na tomada de decisões baseadas em dados reais, como número de candidatos, tempo médio de contratação, custos envolvidos e taxa de retenção de novos funcionários.
+  </p>
+  <p>
+    Além da visualização em tempo real, o sistema possibilita a personalização de relatórios, filtros por critérios específicos e exportação de dados em formatos como PDF e CSV. A aplicação também oferece recursos de segurança com login autenticado, layout responsivo para acesso em dispositivos móveis e gerenciamento dinâmico de permissões de usuários.
+  </p>
+
+  <h3>Objetivos do Projeto</h3>
+  <ul>
+    <li>Desenvolver um painel interativo para centralizar as principais métricas do processo seletivo.</li>
+    <li>Permitir a importação de dados via planilhas Excel.</li>
+    <li>Implementar login seguro com autenticação por e-mail e senha.</li>
+    <li>Documentar a API para facilitar integração e manutenção.</li>
+    <li>Habilitar filtros e segmentações por vaga e outros critérios relevantes.</li>
+    <li>Monitorar os custos associados a cada processo seletivo.</li>
+    <li>Exibir a taxa de retenção de novos colaboradores.</li>
+    <li>Garantir um layout responsivo para acesso via dispositivos móveis.</li>
+    <li>Gerenciar permissões de usuários de forma dinâmica.</li>
+    <li>Gerar gráficos com análises preditivas e tendências.</li>
+    <li>Permitir a exportação dos dados em formatos PDF e CSV.</li>
+  </ul>
+
+  <h3>Lições Aprendidas e Desafios</h3>
+  <p>
+      Neste projeto, atuei exclusivamente como desenvolvedor back-end, colocando em prática toda a bagagem adquirida nos semestres anteriores. Desde o início, assumi a responsabilidade pela criação e manutenção de endpoints conforme as demandas repassadas pelo Product Owner e pelo Scrum Master. Utilizando boas práticas de desenvolvimento com Spring Boot, fui responsável por implementar e posteriormente refatorar funcionalidades essenciais, como o cadastro de usuários, autenticação e lógica de permissões administrativas — permitindo, por exemplo, que usuários com perfil de administrador pudessem promover ou rebaixar outros usuários na plataforma.
+  </p>
+  <p>
+    Um dos principais desafios foi compreender com profundidade o produto e como a lógica de negócios se aplicava às funcionalidades do sistema. Como o restante do processo de desenvolvimento seguiu metodologias já familiares, como o Scrum, pude me adaptar rapidamente ao time e contribuir com eficiência desde o início. Mantive uma postura colaborativa durante todo o ciclo de desenvolvimento, apoiando colegas com dúvidas sobre a API, alinhando constantemente as expectativas com o time de front-end e ajudando a garantir que a integração entre as camadas fosse fluida e sem retrabalho.
+  </p>
+  <p>
+    Esse projeto reforçou ainda mais minha capacidade de trabalhar em equipe, comunicar com clareza, respeitar os papéis definidos dentro da metodologia ágil e manter um fluxo contínuo de entrega de valor, mesmo sob mudanças ou replanejamentos. A experiência contribuiu para o fortalecimento de soft skills como proatividade, empatia técnica e escuta ativa — habilidades indispensáveis para colaborar efetivamente em times multidisciplinares.
+  </p>
+
+  <h3>Tabela de Hard Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Hard Skill</th>
+        <th>Descrição</th>
+        <th>O que fiz no projeto</th>
+        <th>Nível adquirido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Java</td>
+        <td>Linguagem de programação orientada a objetos amplamente utilizada no desenvolvimento de APIs robustas.</td>
+        <td>Implementei endpoints RESTful, manipulei entidades do sistema e trabalhei com lógica de permissões e autenticação.</td>
+        <td>Sei fazer sozinho</td>
+      </tr>
+      <tr>
+        <td>Spring Security</td>
+        <td>Framework de segurança do Spring para autenticação, autorização e proteção de aplicações web.</td>
+        <td>Implementei autenticação via login com token JWT, controle de acesso por tipo de usuário e lógica para alterar permissões dinamicamente.</td>
+        <td>Sei fazer sozinho</td>
+      </tr>
+      <tr>
+        <td>React</td>
+        <td>Biblioteca JavaScript para criação de interfaces de usuário reativas.</td>
+        <td>Participei de alguns ajustes no front-end para garantir a integração com os dados da API e colaborar com testes de consumo.</td>
+        <td>Sei dar manutenção</td>
+      </tr>
+      <tr>
+        <td>TypeScript</td>
+        <td>Superset do JavaScript que adiciona tipagem estática ao código, melhorando a escalabilidade e manutenção.</td>
+        <td>Trabalhei pontualmente no front-end para adaptar tipos e corrigir integrações com os dados da API.</td>
+        <td>Sei dar manutenção</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Tabela de Soft Skills</h3>
+  <table >
+    <thead>
+      <tr>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+        <th>Como usei no projeto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Comunicação</td>
+        <td>Capacidade de alinhar expectativas, esclarecer dúvidas e manter entendimento comum entre os membros da equipe.</td>
+        <td>Alinhei constantemente com o time de front-end para garantir que os endpoints fossem utilizados corretamente, evitando retrabalho e facilitando a integração.</td>
+      </tr>
+      <tr>
+        <td>Colaboração</td>
+        <td>Trabalhar de forma cooperativa com outras pessoas para alcançar objetivos comuns.</td>
+        <td>Auxiliei colegas com dúvidas sobre a API e contribui com ideias durante os alinhamentos técnicos e cerimônias do Scrum.</td>
+      </tr>
+      <tr>
+        <td>Proatividade</td>
+        <td>Capacidade de agir antecipadamente para resolver problemas ou melhorar processos.</td>
+        <td>Refatorei funcionalidades antigas por iniciativa própria e sugeri melhorias na lógica de permissões para facilitar a manutenção do sistema.</td>
+      </tr>
+      <tr>
+        <td>Escuta ativa</td>
+        <td>Habilidade de ouvir com atenção para entender verdadeiramente o que está sendo dito antes de responder.</td>
+        <td>Escutei atentamente o PO e o Scrum Master para compreender as necessidades do sistema antes de iniciar qualquer desenvolvimento.</td>
+      </tr>
+      <tr>
+        <td>Adaptação</td>
+        <td>Capacidade de ajustar-se rapidamente a novos contextos e demandas.</td>
+        <td>Mesmo sem ter participado da definição inicial do produto, me adaptei ao contexto técnico e funcional com rapidez para entregar valor de forma contínua.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a href="#topo">Voltar ao topo</a>
 </div>
-<div class="semestre6">
-<ul><a href="#semestre6">6º Semestre • 1/2025 • Em Breve</a>
-  <details>
-    <summary>Detalhes</summary>
-    <ul>◻️ <a href="#arquitetura-do-projeto">Arquitetura do Projeto</a></ul>
-    <ul>◻️ <a href="#prévia-da-solução">Prévia da Solução</a></ul>
-    <ul>◻️ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></ul>
-    <ul>◻️ <a href="#contribuições-pessoais">Contribuições Pessoais</a></ul>
-    <ul>◻️ <a href="#lições-aprendidas">Lições Aprendidas</a>
-    <ul>◻️ <a href="#hard-skills">Hard Skills</a></ul>
-    <ul>◻️ <a href="#hard-skills">Soft Skills</a></ul>
-    </ul>
-  </details>
-</ul>
+<br><br>
+
+
+
+<br><br>
+
+<div id="portfolio6">
+  <h2> Projeto 6º Semestre</h2>
+  <p><a href="https://github.com/Localhost-308/API-BD6" target="_blank">Repositório no GitHub</a></p>
+
+  <h3>Descrição do Projeto</h3>
+  <p>
+    O Projeto Integrador do 6º semestre teve como foco o desenvolvimento de uma API para o gerenciamento de áreas reflorestadas, com o objetivo de promover a sustentabilidade ambiental por meio da tecnologia. A aplicação foi projetada para fornecer acompanhamento detalhado do progresso do reflorestamento, incluindo dados sobre a saúde das árvores, qualidade do solo, captura de CO₂ e impactos na biodiversidade.
+  </p>
+  <p>
+    Com foco em eficiência e escalabilidade, a API também oferece funcionalidades para análise comparativa entre regiões e biomas, bem como o gerenciamento de fontes de financiamento envolvidas em cada projeto. As ferramentas de visualização e análise integradas permitem aos usuários monitorar a evolução ambiental ao longo do tempo, otimizando decisões e investimentos voltados à recuperação de áreas verdes.
+  </p>
+
+  <h3>Objetivos do Projeto</h3>
+  <ul>
+    <li>Criar uma API eficiente para a gestão de áreas reflorestadas.</li>
+    <li>Monitorar a captura de CO₂ e outras métricas ambientais relevantes.</li>
+    <li>Avaliar a sobrevivência das árvores e a qualidade do solo.</li>
+    <li>Gerenciar fontes de financiamento para projetos de reflorestamento.</li>
+    <li>Analisar a biodiversidade e impactos ambientais ao longo do tempo.</li>
+    <li>Comparar áreas reflorestadas entre diferentes regiões e biomas.</li>
+  </ul>
+
+  <h3>Lições Aprendidas e Desafios</h3>
+  <p>
+    Neste último semestre, retornei à função de Scrum Master com uma postura mais madura, tanto técnica quanto organizacionalmente. A experiência anterior como desenvolvedor e líder ágil me permitiu ter uma visão mais ampla do projeto, contribuindo diretamente para a fluidez dos processos e a manutenção do foco no objetivo final.
+  </p>
+  <p>
+    Entre os principais desafios, esteve a responsabilidade de garantir que o time estivesse constantemente desimpedido para avançar com suas tarefas. Atuei de forma proativa na remoção de impedimentos, acompanhando de perto o progresso diário através das cerimônias de <em>daily</em> e mantendo uma comunicação clara e constante com os desenvolvedores.
+  </p>
+  <p>
+    Além disso, aproximei-me mais do Product Owner, buscando entender suas expectativas e ajudando a traduzir suas necessidades para a linguagem do time de desenvolvimento. Esse alinhamento foi essencial para evitar sobrecargas, manter o escopo sob controle e garantir que nenhuma funcionalidade fosse prometida ao cliente sem que antes tivéssemos validado sua viabilidade técnica e o tempo necessário para entregá-la.
+  </p>
+  <p>
+    Esse projeto reforçou habilidades como comunicação interpessoal, resolução de conflitos e liderança servidora. Também fortaleceu minha capacidade de facilitar cerimônias ágeis com objetividade, de apoiar colegas em momentos de dúvida e de manter o time coeso mesmo diante de prazos apertados e demandas técnicas complexas.
+  </p>
+
+  <h3>Tabela de Hard Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Hard Skill</th>
+        <th>Descrição</th>
+        <th>Como usei no projeto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Scrum</td>
+        <td>Metodologia ágil focada em entregas incrementais com ciclos curtos de desenvolvimento (sprints).</td>
+        <td>Organizei as cerimônias ágeis, acompanhei o progresso das sprints e garanti a entrega contínua do produto.</td>
+      </tr>
+      <tr>
+        <td>Kanban</td>
+        <td>Ferramenta de gestão visual de tarefas, utilizada para monitorar o fluxo de trabalho da equipe.</td>
+        <td>Utilizei o board de tarefas para acompanhar o progresso do time e identificar gargalos no desenvolvimento.</td>
+      </tr>
+      <tr>
+        <td>Gestão de Times</td>
+        <td>Habilidade de liderar e coordenar equipes de forma eficiente, garantindo produtividade e bem-estar.</td>
+        <td>Monitorei diariamente o andamento das tarefas e removi impedimentos para manter a fluidez do trabalho.</td>
+      </tr>
+      <tr>
+        <td>Comunicação Assíncrona</td>
+        <td>Uso de ferramentas digitais para manter a comunicação constante fora de reuniões ao vivo.</td>
+        <td>Utilizei Discord e WhatsApp para manter o time informado, alinhar entregas e resolver dúvidas rapidamente.</td>
+      </tr>
+      <tr>
+        <td>Gestão de Stakeholders</td>
+        <td>Capacidade de alinhar as expectativas entre a equipe de desenvolvimento e os responsáveis pelo produto.</td>
+        <td>Atuei junto ao PO para entender as necessidades do projeto e garantir que as promessas feitas ao cliente fossem viáveis.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Tabela de Soft Skills</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Soft Skill</th>
+        <th>Descrição</th>
+        <th>Como usei no projeto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Comunicação</td>
+        <td>Capacidade de transmitir informações de forma clara e eficaz entre membros da equipe e stakeholders.</td>
+        <td>Estive em contato constante com o PO e o time, promovendo alinhamento sobre escopo, prioridades e impedimentos.</td>
+      </tr>
+      <tr>
+        <td>Resolução de Conflitos</td>
+        <td>Habilidade de identificar e solucionar atritos ou bloqueios que afetam o progresso do time.</td>
+        <td>Atuei de forma diplomática ao lidar com sobrecargas e desalinhamentos entre o que era pedido e o que era possível entregar.</td>
+      </tr>
+      <tr>
+        <td>Organização</td>
+        <td>Capacidade de planejar, priorizar tarefas e acompanhar entregas para garantir a eficiência do time.</td>
+        <td>Monitorei o andamento das tasks diariamente, ajudando o time a manter o foco nos objetivos principais do sprint.</td>
+      </tr>
+      <tr>
+        <td>Liderança Servidora</td>
+        <td>Postura de apoio e facilitação ao time, removendo impedimentos e promovendo um ambiente colaborativo.</td>
+        <td>Atuei como facilitador durante as dailies e ajudei os membros do time a superarem dificuldades técnicas e organizacionais.</td>
+      </tr>
+      <tr>
+        <td>Trabalho em Equipe</td>
+        <td>Colaboração eficaz com outros membros da equipe para atingir objetivos comuns.</td>
+        <td>Colaborei com todos os setores, promovendo decisões conjuntas e escuta ativa nas reuniões.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a href="#topo">Voltar ao topo</a>
 </div>
-<hr>
-<h2>Sobre mim</h2>
-<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/Resume/IMG_20231012_190945.jpg" width="20%"></p>
-<p align="justify">Apaixonado por tecnologia, encontro prazer em explorar todas as nuances e desafios oferecidos pelo vasto universo da programação. Formado como Técnico em Análise e Desenvolvimento de Sistemas pela ETEC em 2020, simultaneamente, ingressei na FATEC no último semestre do meu curso na ETEC. Minha rotina se baseia em imersão na programação - do amanhecer ao anoitecer. Atualmente, estou no 4º semestre do curso tecnólogo em Banco de Dados na Faculdade de Tecnologia de São José dos Campos (FATEC) e desfruto da oportunidade de impactar a vida de usuários como Customer Success em uma empresa de tecnologia.</p>
-<p align="justify">Dentro do vasto universo da tecnologia, os desenvolvedores muitas vezes se deparam com a bifurcação entre seguir a carreira de front-end ou back-end. No meu caso, sempre me senti fascinado pelo back-end, abraçando de bom grado os desafios de conceber funções e aplicações capazes de executar ações incríveis com um simples clique de botão, sem que o usuário final perceba. Para mim, o trabalho no back-end é quase poético: é a criação de verdadeiras obras de arte invisíveis aos olhos dos usuários, essenciais para o funcionamento perfeito de um sistema. Nós, os desenvolvedores back-end, somos os artífices anônimos por trás da magia da programação, dando vida e funcionalidade sem sermos notados, como os cavaleiros sem nome na era da criação digital.</p>
-<p align="justify">Como Customer Success na Lexos Tecnologia e Soluções, desempenhando análises diárias para garantir o sucesso dos nossos clientes em suas operações de vendas em e-commerce por meio de grandes marketplaces. Meu foco é orientar os clientes para empregar as melhores práticas no uso do sistema, resolver eventuais dificuldades enfrentadas pelos vendedores e satisfazer dúvidas, tornando-me um ponto crucial para aprimorar e enriquecer suas experiências no dinâmico mercado em que atuam.</p>
-<p align="center">• <a href="https://www.linkedin.com/in/vitor-lima-36a1201a2/">Linkedin</a> • <a href="https://github.com/VilRL">GitHub</a> •</p>
-<hr>
-<div class="semestre1">
-<h2>Meus Projetos</h2>
-<h3>CyberMind</h3>
-<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/home%20Page.png" widht="20%"></img>
-<h4>1º Semestre • 2/2020 </h4>
-<p align="justify">Parceiro Acadêmico: <a href="https://fatecsjc-prd.azurewebsites.net/">Faculdade de Tecnologia de São José dos Campos</a></p>
-  <p align="justify">Projeto <a href="https://github.com/DatatechOffice/datatech_api">Repositorio</a></p>
-<p align="justify"></p>
-<p align="justify">O CyberMind é um projeto inovador dedicado à criação de uma plataforma destinada à comercialização e acesso a uma ampla gama de cursos online. Nossa plataforma proporciona aos usuários a oportunidade de explorar e adquirir cursos ministrados por profissionais de destaque, embarcando em uma jornada de aprendizado por meio de vídeoaulas especializadas e de alta qualidade.</p>
-<br>
-<h3>Arquitetura do Projeto</h3>
-<p align="center"><img src="" width="100%"></img></p>
-<br>
-<h3>Prévia da Solução</h3>
-<p align="justify">O site desenvolvido tem como principal objetivo oferecer a melhor experiência ao usuário, garantindo um aprendizado eficaz. Para atingir essa meta, foram aplicadas técnicas de usabilidade e garantida a responsividade, assegurando uma performance consistente independentemente do dispositivo utilizado para acessar o site. Além disso, optamos por um design minimalista e moderno, predominando as cores azul e branco, escolhidas por sua relação com o campo educacional.
-
-Com base nessa visão de criação, o sistema apresenta funcionalidades essenciais para seu pleno funcionamento: cadastro, login, carrinho e visualização das aulas.</p>
-<details>
-  <summary><b>Funcionalidade Login</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src=""alt=""/>
-      </td>
-    </tr>
-  </table>
-</details>
-<p align="justify">Desenvolvemos uma tela de login intuitiva, acompanhada por alertas para notificar o usuário sobre possíveis discrepâncias nos dados preenchidos nos campos de usuário e senha. Também implementamos a opção de recuperação de senha, em que os usuários podiam solicitar alterações por e-mail.</p>
-
-<details>
-  <summary><b>Funcionalidade Cadastro</b></summary>
-  <br>
-  <p align="left"><img src="" width="50%" alt=""/></p> 
-</details>
-<p align="justify">O processo de cadastro foi projetado para ser intuitivo, com alertas caso campos não estivessem preenchidos conforme as diretrizes do sistema, como, por exemplo, a confirmação da segunda senha ser diferente da primeira. Ao finalizar o cadastro, os usuários recebiam um e-mail para confirmar sua inscrição.</p>
-
-<details>
-  <summary><b>Funcionalidade Carrinho</b></summary>
-  <br>
-  <p align="left"><img src="" width="50%" alt=""/></p> 
-</details>
-<p align="justify">Acesso ao carrinho era exclusivo para usuários logados na plataforma. Os clientes podiam navegar pelo sistema e adicionar cursos ao carrinho, os quais eram somados automaticamente para gerar o valor total a ser pago. Ao finalizar a seleção, os usuários podiam escolher o método de pagamento para concluir a operação.</p>
-
-<details>
-  <summary><b>Funcionalidade Curso</b></summary>
-  <br>
-  <p align="left"><img src="" alt=""/></p> 
-</details>
-<p align="justify">Após o pagamento de um curso, este era associado ao perfil de aprendizado do cliente. A partir dali, o usuário podia acessar e acompanhar todas as vídeoaulas do curso, além de realizar quizzes para testar os conhecimentos adquiridos durante o aprendizado.</p>
-
-
-<h3>Tecnologias Utilizadas</h3>
-<p align="justify">HTML, CSS e Java Script: para a estrutura e estilização do projeto</p>
-<p align="justify"><a href="https://www.php.net/">PHP:</a> para o desenvolvimento do back-end</p>
-<p align="justify"><a href="https://www.mysql.com/">MySql:</a> para o desenvolvimento do banco de dados</p>
-<p align="justify"><a href="https://www.techsmith.com/video-editor.html">Camtasia Studio:</a> para a gravação e documentação das funções do projeto</p>
-<br>
-<h3>Contribuições Pessoais</h3>
-<p align="justify">Atuei como membro do "Development Team", desempenhando um papel fundamental na configuração e implementação de funcionalidades essenciais para oferecer aos usuários uma experiência completa no sistema. Minha principal responsabilidade foi a concepção e implementação do back-end da aplicação Web utilizando PHP.
-
-No projeto, desenvolvi diversas funcionalidades cruciais como programador. Estas incluíram a criação de um sistema de cadastro para novos usuários, a implementação do mecanismo de login para autenticação no site, a facilitação da aquisição e acesso aos cursos - desde adicionar cursos ao carrinho até a conclusão do processo de pagamento. Além disso, fui responsável pela exibição dos cursos no perfil do aluno, utilizando filtros SQL para garantir que os usuários pudessem acessar as informações de forma eficiente e personalizada.</p>
-<ul>
-  <li>
-    <p align="justify">Na implementação da funcionalidade de recuperação de senha, desenvolvi um procedimento que aborda a redefinição da senha do usuário atualmente cadastrado. No fluxo estabelecido, a lógica consiste em criar uma nova senha segura e atualizar o registro correspondente no banco de dados. Posteriormente, é realizado um processo de verificação da existência do endereço de e-mail associado ao usuário.
-
-Após a redefinição bem-sucedida da senha, é crucial validar se o e-mail fornecido pelo usuário está presente no banco de dados. Caso seja identificado um registro correspondente, o sistema dispara um e-mail contendo a nova senha gerada. Em contrapartida, se o e-mail não for encontrado na base de dados, o usuário é informado de que não há correspondência.
-
-A estratégia adotada assegura que apenas usuários autenticados possam recuperar suas senhas, evitando a manipulação indevida do sistema. Além disso, a comunicação transparente com o usuário, por meio de mensagens específicas, contribui para uma experiência mais satisfatória, elucidando-o sobre o sucesso ou insucesso da operação de recuperação de senha. Este processo promove a segurança e a eficácia na gestão de senhas do sistema.
-</p>
-    <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/esqueci%20senha.png" width="50%" alt=""/></p>
-  </li>
-  <li>
-    <p align="justify">E a funcionalidade de exibição do carrinho foi implementada com o objetivo de proporcionar aos clientes a conveniência de visualizar, a qualquer momento, os itens selecionados para compra. Ao integrar um botão de carrinho no topo da página, os usuários têm a liberdade de acessar a visualização do conteúdo atribuído à sua compra com apenas um clique.
-
-Dessa forma, a experiência do cliente é aprimorada, permitindo uma gestão mais acessível e imediata dos produtos escolhidos. Ao oferecer essa facilidade de acesso ao carrinho, busca-se otimizar a interação do usuário com a plataforma, tornando o processo de compra mais intuitivo e eficiente
-</p>
-    <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/exibirCarrinho.png" width="50%" alt=""/></p>
-  </li>
-  <li>
-    <p align="justify">Na função de login, implementei uma série de etapas para validar e permitir que o cliente inicie a utilização do sistema. O processo se desdobrava da seguinte maneira: inicialmente, o sistema recebia e armazenava como variáveis o e-mail e senha fornecidos pelo front end. Em seguida, era realizada uma validação por meio de uma consulta ao banco de dados para verificar a existência do usuário.
-
-A verificação incluía a confirmação de que o e-mail fornecido estava registrado no banco de dados e se a senha inserida correspondia à informação armazenada para aquele usuário específico. Com base no resultado dessa validação, dois caminhos eram possíveis: se a correspondência era encontrada, a sessão do cliente era iniciada, permitindo o acesso ao sistema. Caso contrário, era emitido um alerta, informando ao usuário sobre a presença de campos incorretos no processo de login.
-
-Essa abordagem em etapas visa garantir a segurança e a precisão durante o processo de autenticação, proporcionando ao cliente uma experiência transparente e, ao mesmo tempo, alertando sobre possíveis erros nos dados fornecidos.
-</p>
-    <p align="left"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/1Sem/imagens/login.png" width="50%" alt=""/></p> 
-  </li>
-</ul>
-
-<br>
-<h3>Lições Aprendidas</h3>
-<p align="justify"></p>
-<h3>Hard Skills</h3>
-<details>
-  <summary><b>Clique para ver a lista de hard skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Tecnologia/Metodologia</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Produção</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<h3>Soft Skills</h3>
-<details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<br>
-<p align="justify"><b>Proatividade:</b></p>
-<p align="justify"><b>Comunicação Assertiva:</p>
-<br>
-<p><a href="#sumário">Voltar para o início</a></p>
-</div>
-<div class="semestre2">
-
-
-<hr>
-
-
-<h3>Gestão de Ativação de Clientes</h3>
-<h4>2º • 2/2020 • <a href="https://github.com/DatatechOffice/datatech_api">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href=https://www.domrock.net/"">Dom Rock</a></p>
-<p align="center"><img src="" widht="20%"></img>
-<p align="justify">Apresentamos nossa solução inovadora que proporcionou a gestão eficiente da ativação de clientes da empresa Dom Rock. Nossa abordagem incluiu a criação de interfaces intuitivas para cada etapa do processo, simplificando a ativação e o cadastro dos clientes.</p>
-
-<p align="justify"> Com foco na visibilidade e facilidade de uso, nossa solução permitiu a entrada de dados de parâmetros e variáveis específicas de cada cliente, além de estimar o consumo de recursos com base em diversos fatores, como volume de dados e número de usuários. Destacamos também a capacidade de gerar relatórios detalhados e realizar consultas, garantindo uma gestão eficaz. </p>
-
-<p align="justify">O ponto chave foi a modelagem adequada da base de dados, permitindo integrações com outros sistemas de forma transparente e eficiente. Com nossa solução, tornamos a ativação de clientes na plataforma Dom Rock um processo simplificado e otimizado </p>
-
-<h3>Arquitetura do Projeto </h3>
-<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/modelodobanco.png"></img></p>
-<br>
-<h3>Prévia da Solução </h3>
-<p align="justify">Como solução desse projeto, desenvolvemos um sistema que utiliza telas de cadastro para reunir as informações essenciais dos clientes. Estruturamos o sistema em várias etapas, cada uma dedicada a inserir e tratar uma parte específica dessas informações. Dessa forma, ao final do processo, obtivemos um cadastro completo do cliente no formato exigido pela Dom Rock.</p>
-
-<details>
-  <summary><b>Funcionalidade Escopo</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/Escopo.png"alt=""/>
-    </tr>
-  </table>
-</details>
-<p align="justify"> Na etapa de escopo, desenvolvemos uma tela inicial na qual o cliente preenchia os dados iniciais. Atribuímos o setor da empresa sendo cadastrada, selecionamos o plano ao qual ele estaria contratando e os produtos desse plano que ele gostaria. Por fim, definimos as entregas possíveis para o cliente, assim como os mínimos prometidos. </p>
-
-<details>
-  <summary><b>Funcionalidade Bronze</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/Bronze.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Na etapa bronze, foram definidos como o cliente disponibilizaria os dados para erguermos o banco de dados e aplicar as ferramentas de análise de business intelligence. Estabelecemos a forma como esses dados seriam enviados para a empresa, a frequência desse envio e o tamanho dos arquivos.</p>
-
-<details>
-  <summary><b>Funcionalidade Silver</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/silver.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Na etapa silver, a conclusão de todo o cadastro do cliente permitia uma validação. Caso estivesse tudo correto, poderíamos concluir, e o cliente passaria a ficar na etapa silver.</p>
-
-<details>
-  <summary><b>Funcionalidade Consulta</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/2Sem/imagens/consulta.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify">Após finalizarmos as etapas e ativar o cliente, temos uma consulta onde podemos verificar todos os dados cadastrados do cliente e até mesmo realizar edições, caso necessário, para evitar possíveis erros em alguma etapa. Também há a opção de deletar o cliente no caso de desistência.</p>
-
-<br>
-<h3>Tecnologias Utilizadas </h3>
-<p align="justify"><a href="https://git-scm.com/">Git</p>
-<p align="justify"><a href="https://github.com/">GitHUB</p
-<p align="justify"><a href="https://www.java.com/pt-BR/">Java</p>
-<p align="justify"><a href="https://www.microsoft.com/pt-br/sql-server/sql-server-downloads">SQL Server</p
-<br>
-
-<h3>Contribuições Pessoais</h3>
-<p align="justify">Na API em que atuei como Product Owner (PO), meu principal papel era agendar reuniões regularmente com o cliente para monitorar suas expectativas em relação ao projeto. Além disso, era responsável por administrar o processo para garantir que o time de desenvolvimento entregasse o necessário para atender a essas expectativas. Também desempenhava o papel de intermediário entre o time de desenvolvimento e o cliente, informando sobre o que poderia ou não ser desenvolvido e garantindo que o sistema final estivesse alinhado com o essencial para o cliente.
-
-Além da função de PO, também atuei como um dos desenvolvedores do back-end, responsável pela construção de algumas funções dentro do sistema.</p>
-
-<ul>
-  <li>Agendar Reuniões</li>
-  <li>Definir Prioridade</li>
-  <li>Monitorar Produto</li>
-  <li>Desenvolver Funções</li>
-</ul>
-<br>
-
-<h3>Lições Aprendidas </h3>
-<p aling="justify"> Este projeto me proporcionou uma valiosa experiência como Product Owner. A interação frequente com o cliente me ensinou a importância da comunicação clara e eficaz na gestão de expectativas. Aprender a administrar as demandas do cliente e traduzi-las em requisitos compreensíveis para o time de desenvolvimento foi um desafio, mas também uma oportunidade de crescimento profissional.
-
-Além disso, atuar como intermediário entre o cliente e a equipe de desenvolvimento me permitiu desenvolver habilidades de negociação e resolução de conflitos. Compreender as necessidades e restrições de ambas as partes e encontrar soluções que atendessem aos interesses de ambas foi uma parte essencial do meu papel como PO.</p>
-
-<h3>Hard Skills </h3>
-<details>
-  <summary><b>Clique para ver a lista de hard skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Tecnologia/Metodologia</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>JHabilidades e abaixo o nivel dela</td>
-      <td>★★★★☆☆☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<h3>Soft Skills </h3>
-<details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<br>
-<p align="justify">Descrever um pouco sobre a soft skill e o motivo dessa nota</p>
-
-<br>
-</div>
-<br>
-<p><a href="#sumário">Voltar para o início</a></p>
-<hr>
-
-
-<div class="semestre3">
-<h3>Consultoria Meteorológica</h3>
-<h4>3º Semestre • 2/2022 • <a href="https://github.com/DatatechOffice/Api_Iacit/tree/main">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href="https://www.iacit.com.br/">IACIT</a></p>
-<br>
-<h3>Arquitetura do Projeto </h3>
-<p align="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Arquitetura%20do%20Sistema.png"></img></p>
-<br>
-<h3>Prévia da Solução </h3>
-<p align="justify">Desenvolver um sistema web, onde fosse possível realizar a extração e tratamento de dados meteorológicos através do site INEP fornecido pelo parceiro, além da persistência dos mesmos e por fim a visualização dos dados de forma que decisões pudessem ser realizadas, no caso foram utilizado gráficos e a filtragem dos dados pelo usuário para tal.</p>
-
-<details>
-  <summary><b> Cadastro </b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Cadastro.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify"> Como base do sistema, como é necessário que um usuário fosse capaz salvar seus filtros de dados, criamos um cadastro para o usuario</p>
-
-<details>
-  <summary><b> Login </b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Login.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify"> Com o cadastro criado, realizamos a implementação da tela de login para acessar o sistema e começar a puxar os dados necessários </p>
-
-<details>
-  <summary><b> Grafico </b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/Dados.png" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify"> Essa é a função principal do nosso sistema: o usuário seleciona a data na qual deseja visualizar os dados. Em seguida, define-se a estação de coleta dos dados que havíamos extraído de arquivos de planilhas. Por fim, o sistema exibe um gráfico que muda de acordo com a variável selecionada, como, por exemplo, a temperatura. </p>
-
-<br>
-<h3>Tecnologias Utilizadas </h3>
-<p align="justify"><a href="https://www.javascript.com/">JavaScript</p>
-<p align="justify"><a href="https://www.java.com/pt-BR/">Java</p>
-<p align="justify"><a href="https://spring.io/projects/spring-boot">Spring Boot</p>
-<p align="justify"><a href="https://www.python.org/">Python</p>
-<p align="justify"><a href="https://www.postgresql.org/">PostGreeSQL</p>
-<p align="justify"><a href="https://github.com/">GitHub</p>
-  <p align="justify"><a href="https://git-scm.com/">Git</p>
-<br>
-
-<h3>Contribuições Pessoais </h3>
-<p align="justify">Nesse projeto, atuei como desenvolvedor full stack, realizando a construção do back-end para receber todos os dados persistidos pelos meus colaboradores. Dessa forma, criei as estruturas necessárias para disponibilizar os dados via API para cada campo do front-end. Após essa estruturação, desenvolvi no front-end o gráfico e seu comportamento de acordo com os dados recebidos do back-end.</p>
-<br>
-<img src="https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/3Sem/imagens/front%20end.png" alt=""/>
-
-
-<h3>Lições Aprendidas </h3>
-<p align="justify">1. Persistência de Dados:
-Aprendi a importância de uma solução robusta para armazenar dados de forma confiável e eficiente. Explorei diferentes métodos e tecnologias de persistência, garantindo que as informações fossem salvas corretamente e pudessem ser recuperadas conforme necessário.</p>
-
-<p align="justify">2. Armazenamento de Dados:
-Desenvolvi a habilidade de organizar e estruturar os dados para facilitar a recuperação e a análise posterior. Este processo envolveu desde a escolha do banco de dados até a definição de esquemas que suportassem os requisitos do projeto.</p>
-
-<p align="justify">3. Exibição de Dados em Formato Gráfico:
-Um dos principais desafios foi transformar dados brutos em visualizações gráficas intuitivas e interativas. Trabalhei com várias bibliotecas de gráficos para o frontend, aprendendo a aplicar filtros e selecionar os tipos de gráficos mais adequados para diferentes conjuntos de </p>
-
-<p align="justify">4. Filtragem e Interatividade:
-Implementei funcionalidades que permitem aos usuários filtrar os dados de acordo com diferentes critérios e visualizar os resultados em tempo real. Essa interatividade melhora a experiência do usuário, tornando a análise de dados mais dinâmica e personalizada.</p>
-
-<p align="justify">Este projeto não só fortaleceu minha base teórica, mas também me permitiu aplicar conhecimentos práticos na criação de soluções que facilitam a interpretação de dados complexos. A capacidade de transformar dados em insights visuais é uma habilidade valiosa que adicionei ao meu portfólio, demonstrando minha competência em tecnologias modernas de desenvolvimento web.</p>
-
-<h3>Hard Skills </h3>
-<details>
-  <summary><b>Clique para ver a lista de hard skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Tecnologia/Metodologia</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>JHabilidades e abaixo o nivel dela</td>
-      <td>★★★★☆☆☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<h3>Soft Skills </h3>
-<details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<br>
-<p align="justify">Descrever um pouco sobre a soft skill e o motivo dessa nota</p>
-
-<br>
-</div>
-<br>
-<p><a href="#sumário">Voltar para o início</a></p>
-<hr>
-
-
-<div class="semestre4">
-<h3>Controle de Laudos de Inspeção Predial</h3>
-<h4>4º Semestre • 2/2023 • <a href="">Repositório Github</a></h4>
-<p align="justify">Parceiro Acadêmico: <a href="[https://tecsus.com.br/](https://www.jaia.software/)">Jaia Software</a></p>
-<p align="center"><img src="" widht="20%"></img>
-<br>
-<h3>Desafio </h3>
-<p align="justify"> Aplicação que gerencia anomalias apontadas em um Laudo de Inspeção Predial e otimiza a determinação de manutenções preventivas e corretivas, baseada nas não conformidades que possam estar colocando o patrimônio em risco, garantindo assim a segurança, a qualidade e a manutenção e gerenciamento de riscos. </p>
-  
-<details>
-  <summary><b>Funcionalidade Cadastrar Fornecedor e Conta</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify"> Para facilitar a obtenção de informações e agilizar o processo de digitação dos dados, foi adicionado junto à aplicação a API dos correios que traz os dados de endereço a partir do CEP do cliente.</p>
-<details>
-  <summary><b>Funcionalidade</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <td alignt="center"><img src="" alt=""/>
-      </td>     
-    </tr>
-  </table>
-</details>
-<p align="justify"> Descrição da funcionalidade </p>
-
-<br>
-<h3>Tecnologias Utilizadas </h3>
-<p align="justify"><a href="">Tecnoligia Utilizada</p>
-<br>
-
-<h3>Contribuições Pessoais </h3>
-<p align="justify">Como eu ajudei o projeto</p>
-<ul>
-  <li>Lista de atividades desenvolvidas</li>
-</ul>
-<br>
-
-<h3>Lições Aprendidas </h3>
-<p align="justify">O que esse projeto me ensinou</p>
-
-<h3>Hard Skills </h3>
-<details>
-  <summary><b>Clique para ver a lista de hard skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Tecnologia/Metodologia</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>JHabilidades e abaixo o nivel dela</td>
-      <td>★★★★☆☆☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<h3>Soft Skills </h3>
-<details>
-<summary><b>Clique para ver a lista de soft skills</b></summary>
-  <br>
-  <table align="center">
-    <tr>
-      <th width="300px">Habilidade</th>
-      <th width="300px">Classificação</th>
-    </tr>
-    <tr>
-      <td>Proatividade</td>
-      <td>★★★★★★☆☆☆☆</td>
-    </tr>
-  </table>
-</details>
-<br>
-<p align="justify">Descrever um pouco sobre a soft skill e o motivo dessa nota</p>
-
-<br>
-</div>
-<br>
-<p><a href="#sumário">Voltar para o início</a></p>
-<hr>
-
-<br>
-<p><a href="#sumário">Voltar para o início</a></p>
-<hr>
