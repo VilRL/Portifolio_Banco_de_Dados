@@ -3,7 +3,7 @@
   <h1>Meu Portfólio dos Projetos API's  FATEC São José dos Campos - Jessen Vidal</h1>
 </div>
 
-<img src="[E:/Faculdade/Portifolio_github/Imagens/profile.jpeg](https://github.com/VilRL/Portifolio_Banco_de_Dados/blob/main/Resume/IMG_20231012_190945.jpg)" width="300" height="auto">
+<img src="https://raw.githubusercontent.com/VilRL/Portifolio_Banco_de_Dados/main/Resume/IMG_20231012_190945.jpg" width="300" height="auto" />
 
 ## Sobre Mim
 
