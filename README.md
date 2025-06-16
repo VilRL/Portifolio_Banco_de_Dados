@@ -67,7 +67,7 @@ Com este portfólio, apresento seis semestres de projetos acadêmicos que reflet
 
 <br>
 
-<div id="#portfolio1">
+<div id="portfolio1">
   <h2>Projeto 1º Semestre</h2>
   <p><a href="https://github.com/arapujo/pi_primeiro_semestre?tab=readme-ov-file#ancora4" target="_blank">Repositório no GitHub</a></p>
 
@@ -160,7 +160,7 @@ Com este portfólio, apresento seis semestres de projetos acadêmicos que reflet
 
 <br><br>
 
-<div id="#portfolio2">
+<div id="portfolio2">
   <h2>Projeto 2º Semestre</h2>
   <p><a href="https://github.com/DatatechOffice/datatech_api" target="_blank">Repositório no GitHub</a></p>
 
